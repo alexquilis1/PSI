@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head lang = "en">
+    <meta charset = "UTF-8">
+    <title>
+        Ver sendas
+    </title>
+    <link rel = "stylesheet" href = "estilo-html.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+
+    <!-- Fuente para h1 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <div class = "cabecera">
+        <header>
+        <h1>
+            SENDAS
+        </h1>
+         <!-- Menú de navegación del sitio -->
+         <div id = "navegador">
+            <ul>
+            <li><a href="ver-sendas.html">Página principal</a></li>
+            <li><a href="accesos-tematicos.html">Accesos temáticos</a></li>
+            <li><a href="enlaces.html">Enlaces de interés</a></li>
+            </ul>
+        </nav>
+        </div>
+        </header>
+    <div class = "cuerpo">
+        
+        <div id="map"></div>
+        <script>
+            var map = L.map('map').setView([40.41889, -3.69194], 12);
+            L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+            attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+            maxZoom: 18,
+            id: 'mapbox/satellite-streets-v11',
+            tileSize: 512,
+            zoomOffset: -1,
+            accessToken: 'pk.eyJ1IjoiYWxleHF1aWxpczEiLCJhIjoiY2wxbWI1MThrMGo1MDNjczltdXhwMG00YiJ9.VPlwJJoeRnSrbwBiv8MoHg'
+            }).addTo(map);
+
+            var aluche = L.marker([40.383824, -3.754048]).addTo(map);
+            aluche.bindPopup("<b>Los Aluches</b><br>Aquí vive un actor!").openPopup();
+            var las_tablas = L.marker([40.5049272019313, -3.6670136980592]).addTo(map);
+            las_tablas.bindPopup("Aquí vive una putita").openPopup();
+        </script>
+
+
+        <!--
+        <div class = "contenido">
+            <h2>
+                1. Heading 1
+            </h2>
+            <p>
+                Existen <a target="_blank" href="http://www.quackit.com/html/online-html-editor/">muchas herramientas</a>, incluso gratuitas, que te permiten crear páginas web sin saber realmente HTML. 
+            </p>
+            <h2>
+                2. Heading 2
+            </h2>
+            <p>
+                Antes de crear una página web, procura pensar una estructura lógica común compuesta por etqieutas de divisiones.
+            </p>
+        </div>
+        -->
+    </div>
+    <div class = "pie">
+        <footer>
+            © Copyright PSI 2022
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+body {
+    font-family: Sans-serif;
+    color:black;
+    background-color: #e1e5da;
+ }
+header{
+    background-color: #556b2f;
+    color: #ffdf00;
+    clear: both;
+    width: auto;
+    text-align: center;
+    padding: 40px;
+    font-size: 1em;
+    font-family: 'Paytone One', sans-serif;
+    height: auto;
+}
+h1{
+    font-size: 5em;
+}
+#navegador ul{
+    list-style-type: none;
+    text-align: center;
+}
+#navegador li{
+    display: inline-block;
+    text-align: center;
+    margin: 0 5px 0 0;
+}
+#navegador li a{
+    padding: 15px 30px;
+    color: #556b2f;
+    background-color: #ffdf00;
+    text-decoration: none;
+}
+#navegador li a:hover{
+    background-color: #a8b292;
+    color: #fff;
+}
+ .cuerpo{
+     padding: 1em;
+     padding-bottom: 1.5%;
+ }
+ #map{
+    position: relative; 
+    margin: 1em;
+    height: 500px;
+    width: auto;
+ }
+footer{
+    font-family: 'Paytone One', sans-serif;
+    font-size: 15px;
+    background-color: #556b2f;
+    width: auto;
+    clear: both;
+    color: #ffdf00;
+    padding: 15px;
+    text-align: center;
+    position: auto;
+}
+
+a:link{
+    color: blue;
+}
+a:visited{
+    color:purple;
+}
