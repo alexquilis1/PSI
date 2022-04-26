@@ -22,6 +22,9 @@
 
 </head>
 <body>
+
+    <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
+
     <div class = "cabecera">
         <header>
         <h1>
@@ -51,58 +54,25 @@
             accessToken: 'pk.eyJ1IjoiYWxleHF1aWxpczEiLCJhIjoiY2wxbWI1MThrMGo1MDNjczltdXhwMG00YiJ9.VPlwJJoeRnSrbwBiv8MoHg'
             }).addTo(map);
 
-            var aluche = L.marker([40.383824, -3.754048]).addTo(map);
-            aluche.bindPopup("<b>Los Aluches</b><br>Aquí vive un actor!").openPopup();
-            var las_tablas = L.marker([40.5049272019313, -3.6670136980592]).addTo(map);
-            las_tablas.bindPopup("Aquí vive una putita").openPopup();
+            // omnivore will AJAX-request this file behind the scenes and parse it:
+            // note that there are considerations:
+            // - The file must either be on the same domain as the page that requests it,
+            //   or both the server it is requested from and the user's browser must
+            //   support CORS.
+
+            // Internally this uses the toGeoJSON library to decode the KML file
+            // into GeoJSON
+            var runLayer = omnivore.kml('C:\\Users\\josea\\Desktop\\Sendas\\Senda_132_AlospiesdelcerrovaldenochesporelCordeldelpuentedesanjuan (1).kml')
+                .on('ready', function() {
+                    map.fitBounds(runLayer.getBounds());
+                })
+                .addTo(map);
         </script>
-
-
-        <!--
-        <div class = "contenido">
-            <h2>
-                1. Heading 1
-            </h2>
-            <p>
-                Existen <a target="_blank" href="http://www.quackit.com/html/online-html-editor/">muchas herramientas</a>, incluso gratuitas, que te permiten crear páginas web sin saber realmente HTML. 
-            </p>
-            <h2>
-                2. Heading 2
-            </h2>
-            <p>
-                Antes de crear una página web, procura pensar una estructura lógica común compuesta por etqieutas de divisiones.
-            </p>
-        </div>
-        -->
     </div>
     <div class = "pie">
         <footer>
             © Copyright PSI 2022
         </footer>
     </div>
-    <!--@alexquilis1 a partir de aquí-->
-    <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
-
-<div id='map'></div>
-
-<script>
-L.mapbox.accessToken = '<your access token here>';
-var map = L.mapbox.map('map')
-    .addLayer(L.mapbox.styleLayer('mapbox://styles/mapbox/streets-v11'));
-
-// omnivore will AJAX-request this file behind the scenes and parse it:
-// note that there are considerations:
-// - The file must either be on the same domain as the page that requests it,
-//   or both the server it is requested from and the user's browser must
-//   support CORS.
-
-// Internally this uses the toGeoJSON library to decode the KML file
-// into GeoJSON
-var runLayer = omnivore.kml('C:\Users\josea\Desktop\Sendas\Senda_132_AlospiesdelcerrovaldenochesporelCordeldelpuentedesanjuan (1).kml')
-    .on('ready', function() {
-        map.fitBounds(runLayer.getBounds());
-    })
-    .addTo(map);
-</script>
 </body>
 </html>
