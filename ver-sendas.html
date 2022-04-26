@@ -98,7 +98,7 @@ var map = L.mapbox.map('map')
 
 // Internally this uses the toGeoJSON library to decode the KML file
 // into GeoJSON
-var runLayer = omnivore.kml('C:\Users\josea\Desktop\Sendas.kml')
+var runLayer = omnivore.kml('C:\Users\josea\Desktop\Sendas\Senda_132_AlospiesdelcerrovaldenochesporelCordeldelpuentedesanjuan (1).kml')
     .on('ready', function() {
         map.fitBounds(runLayer.getBounds());
     })
