@@ -18,10 +18,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
-
-
 </head>
 <body>
+    <!-- 
+    Leaflet-Omnivore 
+    <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
+    -->
     <div class = "cabecera">
         <header>
         <h1>
@@ -38,7 +40,6 @@
         </div>
         </header>
     <div class = "cuerpo">
-        
         <div id="map"></div>
         <script>
             var map = L.map('map').setView([40.41889, -3.69194], 12);
@@ -50,25 +51,15 @@
             zoomOffset: -1,
             accessToken: 'pk.eyJ1IjoiYWxleHF1aWxpczEiLCJhIjoiY2wxbWI1MThrMGo1MDNjczltdXhwMG00YiJ9.VPlwJJoeRnSrbwBiv8MoHg'
             }).addTo(map);
+            
+            
+            // var runLayer = omnivore.kml('C:\\Users\\User\\Documents\\GitHub\\senda_132.kml')
+            //    .on('ready', function(){
+            //        map.fitBounds(runLayer.getBounds());
+            //    })
+            //    .addTo(map);
+
         </script>
-
-
-        <!--
-        <div class = "contenido">
-            <h2>
-                1. Heading 1
-            </h2>
-            <p>
-                Existen <a target="_blank" href="http://www.quackit.com/html/online-html-editor/">muchas herramientas</a>, incluso gratuitas, que te permiten crear páginas web sin saber realmente HTML. 
-            </p>
-            <h2>
-                2. Heading 2
-            </h2>
-            <p>
-                Antes de crear una página web, procura pensar una estructura lógica común compuesta por etqieutas de divisiones.
-            </p>
-        </div>
-        -->
     </div>
     <div class = "pie">
         <footer>
