@@ -20,10 +20,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- 
-    Leaflet-Omnivore 
-    <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
-    -->
+
+<script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
+ 
+
     <div class = "cabecera">
         <header>
         <h1>
@@ -51,13 +51,12 @@
             zoomOffset: -1,
             accessToken: 'pk.eyJ1IjoiYWxleHF1aWxpczEiLCJhIjoiY2wxbWI1MThrMGo1MDNjczltdXhwMG00YiJ9.VPlwJJoeRnSrbwBiv8MoHg'
             }).addTo(map);
-            
-            
-            // var runLayer = omnivore.kml('C:\\Users\\User\\Documents\\GitHub\\senda_132.kml')
-            //    .on('ready', function(){
-            //        map.fitBounds(runLayer.getBounds());
-            //    })
-            //    .addTo(map);
+
+        var runLayer = omnivore.kml('C:\\Users\\User\\Documents\\GitHub\\PSI\\senda_132.kml')
+        .on('ready', function() {
+        map.fitBounds(runLayer.getBounds());
+         })
+        .addTo(map);
 
         </script>
     </div>
