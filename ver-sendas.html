@@ -20,7 +20,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
 </head>
 <body>
-
+<!-- Leaflet Omnivore plugin -->
 <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
  
 
@@ -52,11 +52,11 @@
             accessToken: 'pk.eyJ1IjoiYWxleHF1aWxpczEiLCJhIjoiY2wxbWI1MThrMGo1MDNjczltdXhwMG00YiJ9.VPlwJJoeRnSrbwBiv8MoHg'
             }).addTo(map);
 
-        var runLayer = omnivore.kml('senda_132.kml')
-        .on('ready', function() {
-        map.fitBounds(runLayer.getBounds());
-         })
-        .addTo(map);
+            var runLayer = omnivore.kml('senda_132.kml')
+                .on('ready', function() {
+                    map.fitBounds(runLayer.getBounds());
+            })
+            .addTo(map);
 
         </script>
     </div>
