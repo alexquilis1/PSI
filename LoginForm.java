@@ -1,6 +1,5 @@
 import javax.swing.*;
 import java.awt.event.*;
-import java.awt.*;
 import java.sql.*;
 
 public class LoginForm implements ActionListener {
