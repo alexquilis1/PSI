@@ -31,8 +31,7 @@ create table senda
     longitud varchar(500),
     cota_max varchar(500),
     cota_min varchar(500),
-    primary key (id),
-    constraint FK_senda_usuario foreign key (id) references user(user_id)
+    primary key (id)
 );
 
 describe senda;
