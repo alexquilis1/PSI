@@ -92,7 +92,6 @@
 			</coordinates>
 		</LineString>
 	</Placemark>
-	<!--
 	<Placemark>
 		<name>  1</name>
 		<LookAt>
@@ -110,6 +109,7 @@
 			<coordinates>-4.304861111111111,40.36594444444445,0</coordinates>
 		</Point>
 	</Placemark>
+	<!--
 	<Placemark>
 		<name>  2</name>
 		<LookAt>
@@ -315,7 +315,7 @@
 		</Point>
 	</Placemark>
 	<Placemark>
-		<name>  14</name>
+		<name> 14</name>
 		<LookAt>
 			<longitude>-4.342583420209341</longitude>
 			<latitude>40.31801007738557</latitude>
