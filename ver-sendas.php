@@ -12,7 +12,8 @@ if ($conn->connect_error) {
 }
 
 // Creación variable
-$id = isset($_GET["id"]) ? $_GET["id"] : '0';
+// 2 porq es el primer id de senda que existe
+$id = isset($_GET["id"]) ? $_GET["id"] : '2';
 
 $sql = "SELECT id, nombre, dificultad, señales, longitud, cota_max, cota_min FROM senda WHERE id = " . $id;
 $result = $conn->query($sql);
@@ -75,8 +76,7 @@ if ($result->num_rows > 0) {
         </header>
         <div class="cuerpo">
             <div id="map"></div>
-            <!-- Mostrar nombre de la ruta seleccionada en ese momento -->
-            <?= $nombre ?>
+            
             <script>
                 var map = L.map('map').setView([40.41889, -3.69194], 12);
                 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
@@ -88,7 +88,7 @@ if ($result->num_rows > 0) {
                     accessToken: 'pk.eyJ1IjoiYWxleHF1aWxpczEiLCJhIjoiY2wxbWI1MThrMGo1MDNjczltdXhwMG00YiJ9.VPlwJJoeRnSrbwBiv8MoHg'
                 }).addTo(map);
 
-                var runLayer = omnivore.kml('<?= 'sendas/senda_'.$id.'.kml' ?>')
+                var runLayer = omnivore.kml('<?= 'sendas/Senda_' . $id . '.kml' ?>')
                     .on('ready', function() {
                         map.fitBounds(runLayer.getBounds());
                     })
@@ -103,14 +103,14 @@ if ($result->num_rows > 0) {
                     </thead>
                     <tbody class="body-half-screen">
                         <?php
-                        $sql = "SELECT id, nombre FROM senda ";
+                        $sql = "SELECT id, nombre FROM senda ORDER BY id ASC ";
                         $result = $conn->query($sql);
 
                         if ($result->num_rows > 0) {
                             // output data of each row
                             while ($row = $result->fetch_assoc()) { ?>
                                 <tr>
-                                    <td><a href="?id=<?= $row["id"] ?>"> Ruta <?= $nombre = $row["nombre"] ?> </a></td>
+                                    <td><a href="?id=<?= $row["id"] ?>"><?= $nombre = $row["nombre"] ?> </a></td>
                                 </tr>
                         <?php }
                         } else {
@@ -120,7 +120,6 @@ if ($result->num_rows > 0) {
                     </tbody>
                 </table>
             </div>
-
         </div>
         <div class="pie">
             <footer>

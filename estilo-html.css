@@ -1,7 +1,7 @@
 body {
     font-family: Sans-serif;
     color:black;
-    background-color: #e1e5da;
+    background-color: whitesmoke;
  }
 header{
     background-color: #556b2f;
@@ -65,7 +65,9 @@ a:visited{
     color:purple;
 }
 
+
 .container{
+    position: left;
     padding: 1rem;
     margin: 1rem;
   }

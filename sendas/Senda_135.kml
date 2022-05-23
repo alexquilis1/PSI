@@ -1,0 +1,1244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>orni-ruta023.kml</name>
+	<open>1</open>
+	<Style id="sh_icon575">
+		<IconStyle>
+			<scale>1.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/><br/>$[description]<br/><br/><!--$[geDirections]-->]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_icon5714">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_icon575">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_icon578">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_icon571">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon5716</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon5721</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_icon5722">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon573</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon5712</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_icon577">
+		<IconStyle>
+			<scale>1.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/><br/>$[description]<br/><br/><!--$[geDirections]-->]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_icon5712">
+		<IconStyle>
+			<scale>1.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/><br/>$[description]<br/><br/><!--$[geDirections]-->]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_icon570">
+		<IconStyle>
+			<scale>1.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/><br/>$[description]<br/><br/><!--$[geDirections]-->]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_icon5716">
+		<IconStyle>
+			<scale>1.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/><br/>$[description]<br/><br/><!--$[geDirections]-->]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="msn_icon57200">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon579</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon57150</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_icon577">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon5718</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon5720</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin44">
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>6</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_icon579">
+		<IconStyle>
+			<scale>1.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/><br/>$[description]<br/><br/><!--$[geDirections]-->]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_icon5717">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_icon5718">
+		<IconStyle>
+			<scale>1.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/><br/>$[description]<br/><br/><!--$[geDirections]-->]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="msn_icon570">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon570</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon572</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_icon5719">
+		<IconStyle>
+			<scale>1.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/><br/>$[description]<br/><br/><!--$[geDirections]-->]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_icon579">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_icon5710">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_icon5721">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon5711</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon575</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_icon57">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon5720</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon578</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_icon579">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon5717</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon574</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_icon5718">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_icon5715">
+		<IconStyle>
+			<scale>1.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/><br/>$[description]<br/><br/><!--$[geDirections]-->]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="msn_icon574">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon5714</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon5713</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_icon572">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_icon5721">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_icon5717">
+		<IconStyle>
+			<scale>1.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/><br/>$[description]<br/><br/><!--$[geDirections]-->]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_icon576">
+		<IconStyle>
+			<scale>1.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/><br/>$[description]<br/><br/><!--$[geDirections]-->]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_icon5711">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_icon578">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon57110</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon570</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_icon572">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon571</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon571</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_icon5713">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon574</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon5711</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_icon5710">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon5713</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon5718</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_icon5710">
+		<IconStyle>
+			<scale>1.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/><br/>$[description]<br/><br/><!--$[geDirections]-->]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="msn_icon5718">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon575</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon5722</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_icon57150">
+		<IconStyle>
+			<scale>1.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/><br/>$[description]<br/><br/><!--$[geDirections]-->]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="msn_icon5719">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon5715</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon5716</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_icon575">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon5712</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon5715</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_icon573">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_icon5715">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon572</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon576</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_icon5720">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_icon5715">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_icon574">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_icon572">
+		<IconStyle>
+			<scale>1.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/><br/>$[description]<br/><br/><!--$[geDirections]-->]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_icon5722">
+		<IconStyle>
+			<scale>1.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/><br/>$[description]<br/><br/><!--$[geDirections]-->]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_icon5713">
+		<IconStyle>
+			<scale>1.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/><br/>$[description]<br/><br/><!--$[geDirections]-->]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_icon577">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_icon5712">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_icon573">
+		<IconStyle>
+			<scale>1.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/><br/>$[description]<br/><br/><!--$[geDirections]-->]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_icon5721">
+		<IconStyle>
+			<scale>1.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/><br/>$[description]<br/><br/><!--$[geDirections]-->]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="msn_icon5717">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon5722</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon573</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_icon574">
+		<IconStyle>
+			<scale>1.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/><br/>$[description]<br/><br/><!--$[geDirections]-->]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_icon5720">
+		<IconStyle>
+			<scale>1.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/><br/>$[description]<br/><br/><!--$[geDirections]-->]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_icon571">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_icon578">
+		<IconStyle>
+			<scale>1.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/><br/>$[description]<br/><br/><!--$[geDirections]-->]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="msn_icon5711">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon578</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon57</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_icon5722">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_icon5720">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon577</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon5719</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_icon5712">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon5710</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon5717</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_icon5719">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_icon5713">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_icon57">
+		<IconStyle>
+			<scale>1.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/><br/>$[description]<br/><br/><!--$[geDirections]-->]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_icon5716">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_icon573">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon5719</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon5710</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_icon5711">
+		<IconStyle>
+			<scale>1.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/><br/>$[description]<br/><br/><!--$[geDirections]-->]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="msn_icon576">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon576</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon579</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_icon576">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_icon570">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_icon5714">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon5721</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon577</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_icon571">
+		<IconStyle>
+			<scale>1.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/><br/>$[description]<br/><br/><!--$[geDirections]-->]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_icon57110">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Waypoints</name>
+		<open>1</open>
+		<Placemark>
+			<name>02</name>
+			<description>UTM: E 392463 N 4491757
+Geográficas: Lat. 40º 34’ 10.6’’ Long. -4º 16’ 13.5” 
+2. Después, hay que tomar la calle de Vasco
+de Gama, que es la primera a mano izquierda,
+para llegar hasta la carretera, que también se
+toma hacia la izquierda. En ese momento, la ruta
+a hacerse sobre la Vereda de la Cruz Verde.</description>
+			<LookAt>
+				<longitude>-4.270410016582622</longitude>
+				<latitude>40.56961297986891</latitude>
+				<altitude>0</altitude>
+				<heading>-2.488191659935778e-010</heading>
+				<tilt>0</tilt>
+				<range>1000.000123420476</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_icon5719</styleUrl>
+			<Point>
+				<coordinates>-4.2704100162,40.5696129799,1117.41</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>03</name>
+			<description>UTM: E 391806 N 4491691
+Geográficas: Lat. 40º 34’ 8.1’’ Long. -4º 16’ 41.4”
+3. Tras recorrer 700 m por la vía asfaltada,
+ésta se abandona para continuar por la derecha,
+siguiendo el trazado de la vía pecuaria.</description>
+			<LookAt>
+				<longitude>-4.270410016582622</longitude>
+				<latitude>40.56961297986891</latitude>
+				<altitude>0</altitude>
+				<heading>-2.488191659935778e-010</heading>
+				<tilt>0</tilt>
+				<range>1000.000123420476</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_icon578</styleUrl>
+			<Point>
+				<coordinates>-4.2781610135,40.5689280108,1131.35</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>05</name>
+			<description>UTM: E 391463 N 4491976
+Geográficas: Lat. 40º 34’ 17.2” Long. -4º 16’ 56.1”
+5. Ante un cruce de caminos se continúa de
+frente, por la vía pecuaria.</description>
+			<LookAt>
+				<longitude>-4.280277024992247</longitude>
+				<latitude>40.57057396500885</latitude>
+				<altitude>0</altitude>
+				<heading>5.178738160092969e-012</heading>
+				<tilt>0</tilt>
+				<range>1000.000558724909</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_icon574</styleUrl>
+			<Point>
+				<coordinates>-4.2822610214,40.5714529753,1184.7</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>06</name>
+			<description>UTM: E 391252 N 4492275
+Geográficas: Lat. 40º 34’ 26.8’’ Long. -4º 17’ 5.3”
+6. El sendero de tierra desemboca en un
+camino más ancho y de mejor firme por el que
+hay que seguir.</description>
+			<LookAt>
+				<longitude>-4.280277024992247</longitude>
+				<latitude>40.57057396500885</latitude>
+				<altitude>0</altitude>
+				<heading>5.178738160092969e-012</heading>
+				<tilt>0</tilt>
+				<range>1000.000558724909</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_icon575</styleUrl>
+			<Point>
+				<coordinates>-4.2847999837,40.5741180014,1161.63</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>07</name>
+			<description>UTM: E 391326 N 4492796
+Geográficas: Lat. 40º 34’ 43.7’’ Long. -4º 17’ 2.5”
+7. Al llegar a una nueva bifurcación, debe
+continuarse por el camino de la derecha, señalizado
+como vía pecuaria.</description>
+			<LookAt>
+				<longitude>-4.284020968959097</longitude>
+				<latitude>40.57881899232332</latitude>
+				<altitude>0</altitude>
+				<heading>4.170251857387871e-010</heading>
+				<tilt>0</tilt>
+				<range>1000.000489688444</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_icon570</styleUrl>
+			<Point>
+				<coordinates>-4.2840209696,40.5788189918,1133.03</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>08</name>
+			<description>UTM: E 391601 N 4494527
+Geográficas: Lat. 40º 35’ 40.0’’ Long. -4º 16’ 51.8”
+8. Casi 2 km después, al llegar junto a unas
+fincas delimitadas por piedras, hay que girar a la
+derecha para continuar por un estrecho sendero
+de piedras que discurre primero entre pinos y
+después entre jaras. El recorrido ya no se hace
+por la vía pecuaria.</description>
+			<LookAt>
+				<longitude>-4.284011800298226</longitude>
+				<latitude>40.57886751253573</latitude>
+				<altitude>0</altitude>
+				<heading>-1.666819774557188e-009</heading>
+				<tilt>0</tilt>
+				<range>1020.489964079439</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_icon573</styleUrl>
+			<Point>
+				<coordinates>-4.2810680252,40.5944430269,1160.91</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>A</name>
+			<description>En este punto de la ruta, se
+distingue a lo lejos la localidad
+abulense de Las Navas
+del Marqués, rodeada de
+un bello entorno natural dominado
+por pinos y robles.</description>
+			<LookAt>
+				<longitude>-4.281068025160503</longitude>
+				<latitude>40.59444302742691</latitude>
+				<altitude>0</altitude>
+				<heading>2.578356409461918e-011</heading>
+				<tilt>0</tilt>
+				<range>1000.000151564387</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_icon57</styleUrl>
+			<Point>
+				<coordinates>-4.2736640386,40.5892539583,1401.72</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>04</name>
+			<description>UTM: E 391630 N 4491876
+Geográficas: Lat. 40º 34’ 14.1’’ Long. -4º 16’ 49.0”
+4.300 m más adelante, se llega a una bifurcación.
+Hay que tomar el sendero de la derecha,
+que asciende y pasa por detrás de una
+construcción.</description>
+			<LookAt>
+				<longitude>-4.280277024992247</longitude>
+				<latitude>40.57057396500885</latitude>
+				<altitude>0</altitude>
+				<heading>5.178738160092969e-012</heading>
+				<tilt>0</tilt>
+				<range>1000.000558724909</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_icon5710</styleUrl>
+			<Point>
+				<coordinates>-4.280277025,40.5705739651,1155.38</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>09</name>
+			<description>UTM: E 392364 N 4493824
+Geográficas: Lat. 40º 35’ 17.6’’ Long. -4º 16’ 17.7”
+9. Después de ascender en zig zag, se llega
+a un llano. El recorrido continúa de frente, entre
+dos muros de piedra.</description>
+			<LookAt>
+				<longitude>-4.277726739556875</longitude>
+				<latitude>40.59225215584397</latitude>
+				<altitude>0</altitude>
+				<heading>1.548632203340026e-007</heading>
+				<tilt>0</tilt>
+				<range>1236.263147346065</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_icon5718</styleUrl>
+			<Point>
+				<coordinates>-4.2715760227,40.5882189609,1430.8</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10</name>
+			<description>UTM: E 392788 N 4493942
+Geográficas: Lat. 40º 35’ 21.6’’ Long. -4º 16’ 1.0”
+10. Tras andar 450 m, se llega al núcleo
+poblacional de N avalespino. Hay que adentrarse
+en él por el camino de la izquierda, la calle de
+Murillo.</description>
+			<LookAt>
+				<longitude>-4.271576022648512</longitude>
+				<latitude>40.58821896093837</latitude>
+				<altitude>0</altitude>
+				<heading>3.365026852988399e-011</heading>
+				<tilt>0</tilt>
+				<range>1000.000469676308</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_icon5713</styleUrl>
+			<Point>
+				<coordinates>-4.2669499665,40.5893329997,1447.86</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>11</name>
+			<description>UTM: E 392922 N 4494002
+Geográficas: Lat. 40º 345’ 23.6’’ Long. -4º 15’ 54.4”
+11. Continuando por la calle de Murillo
+se llega al cruce con la calle del Arenal, que se
+coge hacia la derecha para salir a la carretera
+M-955, que conduce al pueblo de Santa María
+de la Alameda.</description>
+			<LookAt>
+				<longitude>-4.271576022648512</longitude>
+				<latitude>40.58821896093837</latitude>
+				<altitude>0</altitude>
+				<heading>3.365026852988399e-011</heading>
+				<tilt>0</tilt>
+				<range>1000.000469676308</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_icon5712</styleUrl>
+			<Point>
+				<coordinates>-4.2653750069,40.5898879655,1455.07</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>12</name>
+			<description>UTM: E 393525 N 4494566
+Geográficas: Lat. 40º 35’ 42.2’’ Long. -4º 15’ 30.0”
+12. Al llegar a Santa María de la Alameda,
+hay que girar hacia la derecha, en dirección a la
+estación de ferrocarril, para alejarse del pueblo,
+esta vez por la carretera M-535.</description>
+			<LookAt>
+				<longitude>-4.266918510413698</longitude>
+				<latitude>40.5906220861077</latitude>
+				<altitude>0</altitude>
+				<heading>-2.369976374160261e-007</heading>
+				<tilt>0</tilt>
+				<range>1227.916576739845</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_icon5714</styleUrl>
+			<Point>
+				<coordinates>-4.2583440151,40.595046021,1451.47</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>13</name>
+			<description>UTM: E 393792 N 4493943
+Geográficas: Lat. 40º 35’ 22.1’’ Long. -4º 15’ 18.3”
+13. 1,600 km después, la carretera se
+ramifica. Debe seguirse realizando, con mucha
+precaución, un brusco giro hacia la izquierda en
+dirección El Escorial y Robledondo, para seguir
+por el trazado de la M-535.</description>
+			<LookAt>
+				<longitude>-4.258344015099145</longitude>
+				<latitude>40.59504602104463</latitude>
+				<altitude>0</altitude>
+				<heading>5.418870038543466e-013</heading>
+				<tilt>0</tilt>
+				<range>1000.000534232923</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_icon577</styleUrl>
+			<Point>
+				<coordinates>-4.2550790124,40.5894749891,1360.14</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>14</name>
+			<description>UTM: E 394466 N 4494307
+Geográficas: Lat. 40º 35’ 34.2’’ Long. -4º 14’ 49.9”
+14. Tras recorrer 800 m más por la misma
+carretera, debe abandonarse para continuar por
+la pista de tierra que arranca a su derecha.</description>
+			<LookAt>
+				<longitude>-4.258321443609508</longitude>
+				<latitude>40.59504155549791</latitude>
+				<altitude>0</altitude>
+				<heading>5.591081171771309e-010</heading>
+				<tilt>0</tilt>
+				<range>1006.495963887621</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_icon5720</styleUrl>
+			<Point>
+				<coordinates>-4.2471830081,40.5928379763,1311.35</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>15</name>
+			<description>UTM: E 394834 N 4494171
+Geográficas: Lat. 40º 35’ 30.0’’ Long. -4º 14’ 34.1”
+15. Tras una pronunciada bajada, se llega a
+un cruce. Hay que ir hacia la derecha.</description>
+			<LookAt>
+				<longitude>-4.247183008222052</longitude>
+				<latitude>40.59283797678687</latitude>
+				<altitude>0</altitude>
+				<heading>-7.940493303874779e-011</heading>
+				<tilt>0</tilt>
+				<range>1000.000235283026</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_icon576</styleUrl>
+			<Point>
+				<coordinates>-4.2428169586,40.5916589778,1262.33</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>16</name>
+			<description>UTM: E 394387 N 4493495
+Geográficas: Lat. 40º 35’ 7.8’’ Long. -4º 14’ 52.7”
+16. El camino se bifurca 1 km más adelante.
+Hay que continuar por la derecha, siguiendo
+el camino se adentra entre pinares.</description>
+			<LookAt>
+				<longitude>-4.24764497197828</longitude>
+				<latitude>40.59013592709337</latitude>
+				<altitude>0</altitude>
+				<heading>-3.283362135848473e-008</heading>
+				<tilt>0</tilt>
+				<range>1166.404657752169</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_icon5711</styleUrl>
+			<Point>
+				<coordinates>-4.2479839828,40.5855100136,1227.96</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>17</name>
+			<description>UTM: E 393463 N 4492370
+Geográficas: Lat. 40º 34’ 30.9’’ Long. -4º 15’ 31.3”
+17.La ruta se acerca, después de andar
+algo más de 2 km, a unas construcciones que
+se levantan muy cerca de la carretera M-538.
+Entonces, y ante un nuevo cruce de caminos, hay
+que girar hacia la izquierda.</description>
+			<LookAt>
+				<longitude>-4.251756206129197</longitude>
+				<latitude>40.58190166802424</latitude>
+				<altitude>0</altitude>
+				<heading>-2.878545175296242e-007</heading>
+				<tilt>0</tilt>
+				<range>1209.376279905216</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_icon5717</styleUrl>
+			<Point>
+				<coordinates>-4.2586999945,40.5752590299,1222.19</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18</name>
+			<description>UTM: E 393450 N 4492343
+Geográficas: Lat. 40º 34’ 30.1’’ Long. -4º 15’ 31.9”
+18. N ada más realizar el giro, hay que volver
+a ir hacia la izquierda, para pasar por detrás
+de otra construcción y continuar el itinerario.</description>
+			<LookAt>
+				<longitude>-4.25869999518879</longitude>
+				<latitude>40.57525902969114</latitude>
+				<altitude>0</altitude>
+				<heading>-4.481425400342204e-010</heading>
+				<tilt>0</tilt>
+				<range>1000.000065139587</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_icon5721</styleUrl>
+			<Point>
+				<coordinates>-4.2588579934,40.5750150327,1217.63</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>19</name>
+			<description>UTM: E 393982 N 4491596
+Geográficas: Lat. 40º 34’ 6.1’’ Long. -4º 15’ 8.8”
+19. Después de un pronunciado descenso,
+el trazado de la ruta vuelve a acercarse a la M-
+538. En este punto, hay que girar a la derecha
+para llegar junto a la carretera. A partir de este
+momento, el itinerario vuelve a hacerse por la
+Vereda de la Cruz Verde.</description>
+			<LookAt>
+				<longitude>-4.258675303435229</longitude>
+				<latitude>40.57523176453497</latitude>
+				<altitude>0</altitude>
+				<heading>1.956068958953525e-009</heading>
+				<tilt>0</tilt>
+				<range>1007.208617383938</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_icon5722</styleUrl>
+			<Point>
+				<coordinates>-4.2524500284,40.5683570355,1104.67</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>21</name>
+			<description>UTM: E 392544 N 4491790
+Geográficas: Lat. 40º 34’ 11.7’’ Long. -4º 16’ 10.1”
+21. Ya en el núcleo poblacional, seguir por
+la carretera hasta el desvío de El Pimpollar. Una
+vez aquí, ir hacia la izquierda para coger la calle
+del Doce de Octubre, que arranca de frente, y
+que conduce al Punto 2 del recorrido, desde donde
+debe regresarse a la estación de Santa María
+de la Alameda y dar por finalizada la ruta.</description>
+			<LookAt>
+				<longitude>-4.25843926688978</longitude>
+				<latitude>40.56890614014846</latitude>
+				<altitude>0</altitude>
+				<heading>6.987460011797929e-008</heading>
+				<tilt>0</tilt>
+				<range>1309.131131858814</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_icon571</styleUrl>
+			<Point>
+				<coordinates>-4.2694650404,40.5699169915,1142.16</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>01</name>
+			<description><![CDATA[<p align="justify"><img src="http://www.viaspecuariasdemadrid.org/images/logo-ornip.jpg" width="250" height="73" /></p>
+<p align="justify"><img src="http://www.viaspecuariasdemadrid.org/images/orni02.jpg" width="250" height="250" alt="orni02-01" /></p>
+<p align="justify"><strong>UTM: E 392543 N 4491700  </strong></p>
+<p align="justify"><strong>Geogr&aacute;ficas: Lat. 40&ordm; 34&rsquo; 8.8&rsquo;&rsquo; Long. -4&ordm; 16&rsquo; 10.0&rdquo;    1. </strong></p>
+<p align="justify">1. Desde la Estaci&oacute;n de Santa Mar&iacute;a de la Alameda, la ruta comienza   girando hacia la derecha para continuar por la calle del Doce de   Octubre. </p>]]></description>
+			<LookAt>
+				<longitude>-4.26945397635218</longitude>
+				<latitude>40.56910503683066</latitude>
+				<altitude>0</altitude>
+				<heading>-3.40975340319648e-011</heading>
+				<tilt>0</tilt>
+				<range>1000.000504978419</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_icon572</styleUrl>
+			<Point>
+				<coordinates>-4.2694539763,40.5691050366,1132.55</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>20</name>
+			<description>UTM: E 393970 N 4491580
+Geográficas: Lat. 40º 34’ 5.6’’ Long. -4º 15’ 9.3”
+20. Tomar la carretera M-538 hacia la derecha.
+Se continúa por ella en todo momento
+para acceder al núcleo poblacional de Santa
+María Estación.</description>
+			<LookAt>
+				<longitude>-4.252450028311714</longitude>
+				<latitude>40.56835703537004</latitude>
+				<altitude>0</altitude>
+				<heading>5.748773072878267e-011</heading>
+				<tilt>0</tilt>
+				<range>1000.00074907557</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_icon57200</styleUrl>
+			<Point>
+				<coordinates>-4.2525800318,40.5682130344,1106.11</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>B</name>
+			<description>Latitude: 40.5895230174 Longitude : -4.2668620404
+
+Navalespino es uno de
+los siete núcleos de población
+que forman el
+término municipal de
+Santa María de la Alameda,
+de importante
+tradición ganadera. Por
+este motivo, todo el municipio
+conserva viviendas
+rurales y numerosos
+ejemplos de arquitectura
+agropecuaria. En Navalespino,
+por ejemplo,
+pueden verse pilones,
+un potro de herrar y una
+herrería en perfecto estado.</description>
+			<LookAt>
+				<longitude>-4.271576022648512</longitude>
+				<latitude>40.58821896093837</latitude>
+				<altitude>0</altitude>
+				<heading>3.365026852988399e-011</heading>
+				<tilt>0</tilt>
+				<range>1000.000469676308</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_icon5715</styleUrl>
+			<Point>
+				<coordinates>-4.2668620404,40.5895230174,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>C</name>
+			<description>Santa María de la Alameda
+es el núcleo originario del
+término municipal. En él se
+encuentran el Ayuntamiento
+–construido en 1896– y la Iglesia
+Parroquial de Nuestra Señora
+de la Alameda –data de
+finales del siglo XVI, de estilo
+gótico tardío y el edificio más
+importante del municipio–.</description>
+			<LookAt>
+				<longitude>-4.258077540566175</longitude>
+				<latitude>40.59120599591637</latitude>
+				<altitude>0</altitude>
+				<heading>-0.009728258100375243</heading>
+				<tilt>0</tilt>
+				<range>2192.468807143849</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_icon579</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-4.258380418019243,40.59604014217564,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Track actual: 15 SEP 2010 09:55</name>
+			<styleUrl>#sn_ylw-pushpin44</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>
+						-4.2694190238,40.5691200402,1115.27 -4.2699510232,40.5691340379,1115.27 -4.2702909932,40.5692949705,1114.79 -4.2704169732,40.569586996,1116.71 -4.2704177275,40.5695910193,0 -4.2704440467,40.5697005708,0 -4.271400338,40.5697508622,0 -4.2715867516,40.5698694661,0 -4.2715859972,40.569869969,1104.69 -4.2720729858,40.5697040074,1106.13 -4.2722490057,40.5696679652,1107.1 -4.2724169791,40.5696520396,1108.54 -4.2727209907,40.5696230382,1111.9 -4.2730390001,40.5696190149,1115.27 -4.2733389884,40.5694979802,1119.59 -4.273404032,40.5694220401,1120.55 -4.2734740209,40.5693839863,1121.52 -4.2737630289,40.5691839941,1124.88 -4.2741019931,40.5690320302,1126.8 -4.2747149616,40.5688470416,1127.76 -4.2753700074,40.5687270127,1124.4 -4.2754720151,40.5687199719,1123.92 -4.2757780384,40.56866901,1122.48 -4.2760829721,40.5685980152,1122 -4.2764490098,40.5685860291,1122.96 -4.2769459728,40.5687030405,1125.84 -4.2770939972,40.5687329639,1126.8 -4.2771680094,40.5687550083,1126.8 -4.2772799917,40.5688000191,1127.28 -4.2774890363,40.5688369833,1128.24 -4.2776789702,40.5688720196,1129.21 -4.2780910246,40.5689109955,1131.13 -4.278113991,40.568914013,1131.13 -4.2781610135,40.5689300224,1130.65 -4.278164031,40.5689249933,1131.61 -4.2783790268,40.5689669866,1132.57 -4.2784670368,40.5689809844,1134.49 -4.2785279732,40.5689929705,1134.97 -4.2786090262,40.5690010171,1135.45 -4.2786899954,40.5690089799,1136.42 -4.2789779976,40.5690679885,1138.34 -4.279296007,40.5690860096,1140.74 -4.2793580331,40.5690850038,1141.22 -4.2795509845,40.5690789688,1143.63 -4.2796489689,40.5691239797,1145.55 -4.2797860131,40.5693320185,1147.47 -4.2798409984,40.569417011,1147.95 -4.2799190339,40.5695729982,1149.87 -4.2800119892,40.5697480123,1150.35 -4.2800640408,40.5699650198,1151.32 -4.2801210377,40.5701530259,1152.28 -4.2801350355,40.5703309737,1153.24 -4.2801790405,40.5704570375,1154.2 -4.2801920325,40.5704909842,1154.68 -4.2802760191,40.5705779884,1155.16 -4.2802869994,40.5705729593,1155.64 -4.2804879975,40.5706110131,1157.56 -4.2804989778,40.5706069898,1158.05 -4.2806060147,40.5705840234,1159.49 -4.2807719763,40.5705570336,1161.41 -4.2808429711,40.5705800001,1163.33 -4.2809490021,40.5706029665,1164.77 -4.2810879741,40.5706420261,1167.18 -4.2811690271,40.5706739612,1169.1 -4.281245973,40.5707100034,1170.54 -4.2814189754,40.5707789864,1173.43 -4.281497011,40.570837995,1175.35 -4.2815960012,40.5708639789,1175.83 -4.2816529982,40.5709140189,1176.79 -4.281836981,40.5710679945,1179.19 -4.2819290143,40.5711389892,1180.64 -4.2820089776,40.5712750275,1181.6 -4.282044014,40.5713200383,1183.04 -4.2821150087,40.5713659711,1183.04 -4.2821789626,40.5714180227,1184 -4.2821870092,40.5714239739,1184 -4.2822649609,40.5714569986,1184 -4.2824050225,40.5714989919,1184.48 -4.282672992,40.571605023,1183.04 -4.2829759978,40.5718279816,1181.12 -4.2831909936,40.5720549636,1180.64 -4.2833530158,40.5721889902,1178.71 -4.2833759822,40.5722019821,1178.71 -4.2835759744,40.5723569635,1177.27 -4.2836960033,40.5724230129,1176.31 -4.2837519944,40.5724909902,1174.87 -4.2838980071,40.5726380087,1172.95 -4.2839499749,40.5726660043,1172.95 -4.2839939799,40.5727069918,1171.98 -4.284018036,40.5727820098,1171.98 -4.2840470374,40.572831966,1171.5 -4.2841519788,40.5729430262,1170.06 -4.2842059582,40.5729909707,1170.06 -4.284269996,40.5731400009,1169.58 -4.2843180243,40.5732679926,1168.14 -4.2843640409,40.5733990017,1166.7 -4.2844959721,40.5735959765,1165.26 -4.2846500315,40.5738070328,1163.81 -4.2847040109,40.5739810411,1163.33 -4.2847040109,40.5740169995,1163.81 -4.2847050168,40.5740190111,1162.37 -4.2847439926,40.5740620103,1162.85 -4.2848070245,40.574139962,1161.41 -4.2847610079,40.5741829611,1161.41 -4.2847819626,40.574252028,1160.45 -4.2847969662,40.5743719731,1159.97 -4.2846350279,40.5748400185,1157.56 -4.2846210301,40.5748860352,1157.08 -4.284571996,40.5750450399,1156.6 -4.284351971,40.5752239935,1154.2 -4.2842949741,40.5752740335,1153.72 -4.2842280027,40.5754249915,1152.28 -4.2841900326,40.5756720062,1149.87 -4.2842939682,40.5759669654,1149.87 -4.2843170185,40.576226972,1149.39 -4.2844320182,40.5767719634,1149.39 -4.2846370395,40.5770960078,1147.95 -4.2843279988,40.5771810003,1144.59 -4.2842509691,40.5771870352,1144.11 -4.2839659844,40.5774489697,1142.18 -4.2839470413,40.5778539833,1139.78 -4.2839860171,40.5782149918,1136.9 -4.2840049602,40.5783999804,1134.97 -4.2839850113,40.5786510184,1133.53 -4.2840069719,40.5787189957,1133.05 -4.2839969974,40.5788700376,1133.05 -4.2839629669,40.5789690278,1132.57 -4.2836590391,40.5790100154,1133.53 -4.283509003,40.5791779887,1134.49 -4.2834789958,40.5793130212,1134.01 -4.2834820133,40.5796389934,1134.01 -4.2835300416,40.580144003,1135.45 -4.283515038,40.5803689733,1137.86 -4.2834919877,40.5803859886,1137.38 -4.2834459711,40.5804490205,1137.86 -4.2833840288,40.5804930255,1138.82 -4.2832850385,40.5806889944,1140.26 -4.2832100205,40.5808260385,1141.22 -4.2832049914,40.5809019785,1141.7 -4.2831670213,40.5810510088,1144.59 -4.2831800133,40.5812280346,1147.47 -4.2831700388,40.5813990254,1149.39 -4.2831199989,40.5815499835,1150.84 -4.283118993,40.5816809926,1152.76 -4.2830269597,40.5818590242,1154.68 -4.2828689609,40.5821499601,1156.6 -4.2827230319,40.5822829809,1158.53 -4.2825460061,40.5824819673,1158.53 -4.2823500372,40.5826810375,1159.01 -4.282245012,40.582753038,1158.05 -4.2820949759,40.5829579756,1157.08 -4.2820639629,40.583024025,1156.12 -4.2818779685,40.5834209919,1155.16 -4.2815990187,40.583772026,1155.16 -4.2814280279,40.5841330346,1155.64 -4.2812110204,40.5843740143,1156.12 -4.2808859702,40.5847380403,1157.08 -4.2808360141,40.5849780142,1159.49 -4.2807960324,40.585325025,1159.49 -4.2808729783,40.5856980197,1159.97 -4.2808090243,40.5859769695,1159.01 -4.2806739919,40.5862850044,1158.53 -4.2807540391,40.586558003,1159.97 -4.2808220163,40.5866650399,1159.01 -4.2809510138,40.5867490266,1157.08 -4.2809780035,40.5868389644,1156.6 -4.2808569688,40.5871780124,1154.2 -4.2808599863,40.5876199901,1151.32 -4.2808660213,40.5880089942,1150.84 -4.2808699608,40.5883379839,1150.35 -4.2807149794,40.5884750281,1148.91 -4.2806569766,40.5887939595,1147.47 -4.2806330044,40.5892100371,1146.99 -4.2806569766,40.5893989652,1147.47 -4.2807419691,40.5896179844,1147.47 -4.2809609883,40.5898810085,1146.51 -4.2812009621,40.5899919849,1146.51 -4.2814489827,40.5900889635,1149.87 -4.2814820074,40.5901929829,1151.32 -4.2814769782,40.5901990179,1150.84 -4.281327026,40.5903819948,1153.72 -4.2813120224,40.590519961,1154.2 -4.2813810054,40.5906570051,1155.16 -4.2814150359,40.5906740203,1155.64 -4.2815379985,40.5906659737,1157.08 -4.281861959,40.5906620342,1159.01 -4.2820850015,40.5908300076,1159.01 -4.2821430042,40.5910419859,1160.45 -4.2820929643,40.5913439859,1160.45 -4.2819420062,40.5916459858,1159.97 -4.2817059718,40.5920059886,1158.53 -4.2816059757,40.5923420191,1157.08 -4.2816199735,40.5927499663,1155.64 -4.2814079951,40.5931089632,1157.56 -4.2812339868,40.5935080256,1159.01 -4.2810879741,40.5938139651,1160.93 -4.2810769938,40.5940520111,1160.45 -4.2810919974,40.5944209825,1160.93 -4.2810619902,40.5944599584,1160.93 -4.2810500041,40.5944550131,1160.93 -4.280974986,40.5944590364,1161.41 -4.2806979641,40.594424,1162.37 -4.2806409672,40.594417965,1163.81 -4.2805109639,40.5944049731,1164.29 -4.2803230416,40.5944169592,1165.74 -4.2802549805,40.5943830125,1165.74 -4.2801620252,40.5943540111,1168.14 -4.2800920364,40.5943580344,1169.1 -4.27996899,40.5943700206,1170.06 -4.279767992,40.5943899695,1172.47 -4.2796010245,40.5943840183,1174.39 -4.2795079853,40.5943469703,1175.83 -4.2794209812,40.5943169631,1177.27 -4.2793189734,40.5943140294,1179.19 -4.2792270239,40.5942420289,1181.12 -4.2791280337,40.5942059867,1182.08 -4.2790629901,40.5941909831,1184.96 -4.2789960187,40.5941759795,1185.92 -4.2789840326,40.5941629875,1186.4 -4.2788650095,40.5941540189,1188.81 -4.2788449768,40.5941309687,1191.69 -4.2787739821,40.5940790009,1194.09 -4.2787100282,40.5940349959,1196.98 -4.2786200065,40.5939729698,1199.38 -4.2784940265,40.5937909987,1201.3 -4.278459996,40.5935380328,1203.23 -4.2784119677,40.5934579857,1204.67 -4.2783610057,40.5934279785,1207.55 -4.2781940382,40.5934439879,1210.92 -4.2781040166,40.5934549682,1212.36 -4.2780770268,40.5933309998,1214.28 -4.2780579999,40.5932630226,1215.72 -4.2780409846,40.593248019,1216.21 -4.2779519688,40.5931510404,1218.13 -4.2779020127,40.5930760223,1220.05 -4.2778369691,40.5929999985,1221.01 -4.2778430041,40.5929340329,1221.97 -4.2778109852,40.5929010082,1222.93 -4.2778069619,40.5928920396,1222.45 -4.2778079677,40.5928920396,1222.93 -4.2777549941,40.5929549877,1223.9 -4.2777280044,40.592996981,1224.38 -4.2777109891,40.5930440035,1225.82 -4.2776369769,40.5931139924,1227.26 -4.277566988,40.5931849871,1228.22 -4.2774909642,40.5932429899,1229.66 -4.2774219811,40.5933269765,1231.59 -4.2774379905,40.5933920201,1232.55 -4.2774229869,40.5934520345,1232.55 -4.2773390003,40.5934610032,1233.51 -4.2772499844,40.5935340095,1235.43 -4.2771929875,40.5935960356,1236.87 -4.2771349847,40.5935889948,1238.32 -4.2771280278,40.5934969615,1239.28 -4.2770840228,40.5934289843,1240.72 -4.2770680133,40.5933569837,1242.16 -4.2770359945,40.5933249649,1243.12 -4.2769599706,40.5933849793,1245.04 -4.2768810131,40.5934589915,1246.49 -4.2768240161,40.5935139768,1247.93 -4.2767759878,40.5936419684,1249.85 -4.2766780034,40.5937289726,1250.81 -4.2766080145,40.5938510131,1252.74 -4.2765070125,40.5939019751,1254.18 -4.2765039951,40.5938210059,1256.58 -4.2764979601,40.5937520228,1257.54 -4.2764530331,40.5936110392,1258.5 -4.2764149792,40.5934920162,1259.46 -4.2764240317,40.5934060179,1260.91 -4.2764169909,40.5933340173,1262.35 -4.2764259595,40.5932299979,1264.27 -4.2764340062,40.5931350309,1265.23 -4.2764480039,40.593071999,1265.71 -4.2764279712,40.5929910298,1267.16 -4.276397964,40.5929239746,1267.64 -4.2763729859,40.5928570032,1268.6 -4.2763370275,40.5928290077,1269.56 -4.2763269693,40.5927649699,1270.04 -4.2763640173,40.5927140079,1268.12 -4.276340967,40.5926789716,1269.08 -4.2763559707,40.5926049594,1268.6 -4.2763589881,40.5925320368,1268.12 -4.2763419729,40.5925290193,1269.08 -4.2762950342,40.5925600324,1269.56 -4.2762729898,40.5926020257,1272.44 -4.2762449943,40.5926369783,1272.92 -4.2761679646,40.5926430132,1274.85 -4.276139969,40.5925239902,1276.29 -4.2760969698,40.5924629699,1276.77 -4.2760750093,40.5923959985,1276.77 -4.2760559823,40.5923459586,1277.73 -4.2760119773,40.5922840163,1278.69 -4.275963027,40.5923100002,1279.17 -4.2759419885,40.5924290232,1281.09 -4.2759089638,40.5925209727,1282.06 -4.2758770287,40.5925079808,1283.98 -4.2758399807,40.5924590304,1284.94 -4.2758139968,40.5924069788,1285.42 -4.2757849954,40.592330033,1285.9 -4.2757350393,40.5922280252,1288.78 -4.2757109832,40.5921420269,1289.75 -4.2756929621,40.5920909811,1290.71 -4.2756910343,40.5919860397,1292.15 -4.2756849993,40.5919510033,1293.11 -4.2757099774,40.5918469839,1294.55 -4.2756979913,40.5917739775,1295.99 -4.275680976,40.5917569622,1295.99 -4.2756480351,40.5917380191,1296.96 -4.2756259907,40.5917179864,1297.92 -4.2755969893,40.5917139631,1298.88 -4.2754959874,40.5917459819,1300.8 -4.2754789721,40.5917879753,1300.8 -4.2754460312,40.5918380152,1301.28 -4.2753700074,40.5919120274,1303.69 -4.2753040418,40.5919579603,1305.13 -4.275246961,40.5920439586,1305.61 -4.2752000224,40.5920499936,1307.53 -4.2751840129,40.5919879675,1308.49 -4.2751759663,40.5919479858,1309.93 -4.2751489766,40.5918919947,1309.93 -4.2751219869,40.5918339919,1311.38 -4.275089968,40.5918110255,1311.86 -4.2750700191,40.5918049905,1312.82 -4.2750629783,40.5917780008,1312.34 -4.2750359885,40.5917139631,1314.26 -4.2749820091,40.591651015,1315.22 -4.2749670055,40.5916149728,1316.18 -4.274950996,40.5915670283,1317.14 -4.2749250121,40.5914920103,1319.07 -4.2749169655,40.5914449878,1320.03 -4.274906991,40.5914100353,1320.51 -4.2748680152,40.59134298,1321.95 -4.2748619802,40.5913040042,1322.43 -4.2748199869,40.5912480131,1324.83 -4.2748049833,40.5912090372,1325.8 -4.2747869622,40.5911279842,1326.76 -4.2747869622,40.5910750106,1328.2 -4.2747850344,40.5910040159,1329.64 -4.2747960147,40.59096504,1330.12 -4.2748140357,40.5909320153,1331.08 -4.2748120241,40.5909040198,1331.08 -4.2747970205,40.5908310134,1333.49 -4.2747960147,40.5907509662,1334.93 -4.2748049833,40.5907010101,1334.45 -4.2748090066,40.5906399898,1336.37 -4.2748290394,40.5905910395,1337.33 -4.2748769838,40.5905320309,1340.7 -4.2749090027,40.5904789735,1340.7 -4.2749019619,40.5904529896,1341.66 -4.274957031,40.5903629679,1343.58 -4.2749919835,40.5902600382,1344.54 -4.274913026,40.5902359821,1345.02 -4.2748729605,40.5902799871,1345.98 -4.2747990321,40.5903329607,1347.43 -4.2746830266,40.5903769657,1349.83 -4.2746400274,40.5904140137,1349.83 -4.2745980341,40.5904369801,1351.27 -4.2745350022,40.590456007,1352.23 -4.2745220102,40.5904700048,1353.67 -4.2744810227,40.5904639699,1352.71 -4.2743859719,40.5905180331,1354.63 -4.2742940225,40.5905239843,1356.08 -4.2741670366,40.5905850045,1357.52 -4.2741360236,40.5905770417,1358.48 -4.2740539648,40.5906499643,1361.36 -4.2739819642,40.5906799715,1362.33 -4.2739760131,40.5906190351,1362.33 -4.2740729917,40.5904840026,1363.77 -4.274114985,40.5903929751,1364.73 -4.2741399631,40.5903020315,1365.69 -4.2741630133,40.5902359821,1367.61 -4.2741790228,40.5901929829,1368.09 -4.274202995,40.5901410151,1369.05 -4.2741920147,40.590085024,1370.5 -4.2741979659,40.590047976,1371.46 -4.2741709761,40.590003971,1372.42 -4.2741370294,40.5899359938,1374.34 -4.2741770111,40.5898290407,1375.78 -4.2741829623,40.5897879694,1376.26 -4.2741679586,40.5897479877,1376.26 -4.2742040008,40.5896489974,1378.67 -4.274215987,40.5895719677,1379.63 -4.2742289789,40.589507008,1381.07 -4.2742429767,40.5894479994,1382.03 -4.2742179986,40.589412963,1382.99 -4.274165025,40.589337023,1384.92 -4.2741760053,40.5893070158,1385.88 -4.2741749994,40.5892680399,1386.36 -4.2741259653,40.5892220233,1386.84 -4.274127977,40.5891240388,1388.28 -4.2741309945,40.589079028,1388.76 -4.2741139792,40.5890180077,1389.72 -4.2740869895,40.588966962,1391.17 -4.2740220297,40.5888819695,1392.61 -4.2740200181,40.58882799,1393.57 -4.273945,40.5888200272,1396.45 -4.2738490272,40.5889419839,1395.97 -4.2738239653,40.5889839772,1396.93 -4.2738089617,40.5890159961,1398.37 -4.2737620231,40.5890670419,1398.86 -4.2737030145,40.5891620088,1399.82 -4.2736740131,40.5892539583,1401.26 -4.2736770306,40.5892480072,1400.3 -4.2736099754,40.5892299861,1403.18 -4.2735789623,40.5891839694,1403.18 -4.2735709995,40.58912999,1403.66 -4.2735399865,40.589072993,1405.1 -4.2735119909,40.5890409742,1405.1 -4.2734880187,40.5889770202,1406.55 -4.2734600231,40.5889409781,1406.55 -4.2734649684,40.5888920277,1407.51 -4.2734610289,40.5888320133,1407.99 -4.2734679859,40.588783985,1408.95 -4.2734239809,40.5887310114,1410.39 -4.2734379787,40.5886229686,1410.87 -4.2734239809,40.5885209609,1412.31 -4.2734160181,40.5884779617,1413.76 -4.2733570095,40.5884180311,1413.76 -4.2732639704,40.5883399956,1414.72 -4.2732560076,40.5883290153,1414.72 -4.2732069734,40.5882919673,1416.16 -4.2731720209,40.5882840045,1416.16 -4.2731270101,40.58827403,1417.12 -4.2730789818,40.5882730242,1418.08 -4.2730359826,40.5882560089,1419.52 -4.2729410157,40.5882270075,1420 -4.2729120143,40.5882209726,1420.49 -4.2728140298,40.5881919712,1421.45 -4.2726599704,40.5881649815,1422.89 -4.2725660093,40.5881769676,1424.33 -4.2723769974,40.5881939828,1424.81 -4.2722189985,40.5881939828,1425.29 -4.2720739916,40.5881809909,1426.25 -4.2719409708,40.5881959945,1427.21 -4.2718620133,40.5882120039,1427.7 -4.271719018,40.5882199667,1429.14 -4.2715770286,40.5882239901,1430.58 -4.2715740111,40.5882219784,1430.1 -4.2714519706,40.5882489681,1431.54 -4.2713740189,40.5882720184,1432.98 -4.2712779623,40.5883000139,1434.42 -4.2711740267,40.5883369781,1434.91 -4.2711539939,40.5883420072,1434.91 -4.2710219789,40.5883900356,1436.35 -4.2708880361,40.5884349626,1436.35 -4.2707270198,40.5884789675,1437.79 -4.2705739662,40.5885249842,1438.27 -4.2703729682,40.5885129981,1438.27 -4.2701510154,40.5885349587,1438.27 -4.2699190043,40.5885310192,1438.27 -4.2695510387,40.5886490364,1438.75 -4.269493036,40.5887099728,1438.27 -4.2694630288,40.5887880083,1439.23 -4.2693870049,40.5888389703,1439.23 -4.2692119908,40.5888699833,1440.19 -4.2690300196,40.5889269803,1441.15 -4.2690170277,40.5889239628,1440.67 -4.2688120063,40.5889920238,1442.11 -4.2686560191,40.5890460033,1442.11 -4.268487962,40.589079028,1442.11 -4.2683560308,40.5891320016,1442.6 -4.2682140414,40.5891999789,1443.56 -4.2680830322,40.5892879888,1444.52 -4.2679680325,40.5893259589,1445 -4.2677810322,40.5893190019,1445.96 -4.2676930223,40.5893019866,1445.96 -4.2673679721,40.5892680399,1446.44 -4.2671720032,40.5892829597,1446.92 -4.2670160159,40.5893139727,1447.4 -4.2669499665,40.5893279705,1446.92 -4.2669259943,40.5893540382,1447.4 -4.2669470329,40.5893350113,1447.4 -4.2668190412,40.5894080177,1448.36 -4.2667720187,40.589406006,1448.84 -4.2666179594,40.589450011,1450.29 -4.2664590385,40.5895120371,1450.77 -4.2663570307,40.5895029847,1450.29 -4.2661149614,40.5895530246,1450.77 -4.2656879872,40.5896090157,1452.69 -4.2653429881,40.5897779949,1453.17 -4.2653740011,40.5898169708,1455.09 -4.2653740011,40.5898879655,1454.61 -4.265331002,40.590047976,1457.02 -4.2652859911,40.5900939927,1457.02 -4.2652729992,40.5901020393,1457.02 -4.2651269864,40.5901540071,1457.02 -4.2642400134,40.5905059632,1455.09 -4.2630760185,40.5909709912,1451.73 -4.2617210001,40.5915619992,1449.81 -4.2605379783,40.5921179708,1448.84 -4.2595970258,40.592537988,1451.25 -4.2591109592,40.5929340329,1453.65 -4.2589829676,40.5932149943,1455.09 -4.2589449976,40.5935900006,1456.53 -4.2588819657,40.5940459762,1457.02 -4.2586490326,40.5945199728,1455.57 -4.258489022,40.5948949791,1452.69 -4.2584040295,40.5949829891,1451.73 -4.2583269998,40.5950620305,1451.25 -4.2581020296,40.5947980005,1449.32 -4.2579919752,40.5944290292,1446.44 -4.2579570226,40.5942000356,1445 -4.257955011,40.5941140372,1444.04 -4.2581239901,40.593625037,1440.67 -4.258338986,40.5930999946,1437.79 -4.2583489604,40.5930640362,1437.31 -4.2584229726,40.5928789638,1436.35 -4.2585190292,40.592688024,1434.42 -4.2587839812,40.5921489839,1431.54 -4.2589969654,40.5916230194,1428.66 -4.259036025,40.5914070178,1427.21 -4.2590439878,40.5913319997,1426.25 -4.2588149942,40.5909480248,1422.41 -4.2585969809,40.5908429995,1420.49 -4.2583280057,40.5907590128,1418.56 -4.2578250077,40.5907669757,1416.16 -4.2569289822,40.5910439976,1412.79 -4.2567279842,40.5911090411,1412.31 -4.2564050294,40.5912940297,1411.83 -4.2559400015,40.5916540325,1407.99 -4.2554280348,40.59194698,1404.62 -4.2553070001,40.5920009594,1404.62 -4.2548279744,40.5922179669,1400.78 -4.2541890219,40.5924990121,1397.41 -4.2540860083,40.5925369821,1397.41 -4.253559038,40.592694981,1394.05 -4.2534560245,40.5927239824,1393.57 -4.2530479934,40.5928050354,1391.65 -4.2526180018,40.5928630382,1388.76 -4.2519420013,40.5926819891,1385.4 -4.2519000079,40.5925769638,1384.44 -4.2519129999,40.5924909655,1383.96 -4.2519480363,40.5924079847,1383.47 -4.2521379702,40.592021998,1380.59 -4.252396971,40.59169502,1378.19 -4.2527240328,40.5913739931,1376.26 -4.2531209998,40.5910549778,1373.86 -4.2536489759,40.5906750262,1370.5 -4.2539880238,40.590418959,1368.09 -4.2544409819,40.5899759755,1364.73 -4.2546419799,40.589783024,1362.81 -4.2550490052,40.5894999672,1359.44 -4.2550820298,40.5894749891,1359.92 -4.2551169824,40.589324031,1359.44 -4.2548309918,40.5893559661,1358.48 -4.2543129902,40.5896530207,1354.63 -4.253666997,40.5899619777,1351.27 -4.253565995,40.5900069885,1351.27 -4.2530240212,40.5902609602,1347.91 -4.2525449954,40.5904909596,1344.54 -4.2520669755,40.5907160137,1341.18 -4.2514730338,40.5909910239,1337.33 -4.2508510128,40.5912750028,1333.97 -4.2506190017,40.5913699698,1333.49 -4.2504050117,40.5914469995,1332.04 -4.2498089746,40.5916060042,1328.68 -4.2496089824,40.5916299764,1327.72 -4.2491410207,40.5916660186,1324.83 -4.2489420343,40.5916940141,1323.87 -4.2485459894,40.5918420386,1320.99 -4.2480969708,40.5921290349,1318.1 -4.2477760278,40.5923540052,1315.7 -4.2474270053,40.5926270038,1313.3 -4.247303959,40.5927209649,1312.34 -4.2472130153,40.5928089749,1311.86 -4.2471830081,40.5928379763,1311.38 -4.2471820023,40.5928379763,1311.38 -4.2470209859,40.592751978,1308.97 -4.2470359895,40.5926689971,1308.01 -4.2470400129,40.5925089866,1306.57 -4.246926019,40.5924970005,1305.13 -4.2467710376,40.5925160274,1303.2 -4.2467700318,40.5925160274,1302.72 -4.246630976,40.5925239902,1302.24 -4.2464579735,40.5923100002,1298.4 -4.2462689616,40.5923130177,1296.96 -4.2460689694,40.5924179591,1295.03 -4.2459119763,40.5925049633,1293.59 -4.2456920352,40.5924389977,1292.15 -4.2451899592,40.5922369938,1290.23 -4.245095998,40.5921730399,1290.23 -4.2446159665,40.5921449605,1286.86 -4.2444029823,40.5923560169,1284.46 -4.2441950273,40.5924079847,1281.57 -4.2441139743,40.5923850182,1280.13 -4.2440380342,40.5923089944,1279.17 -4.2440169957,40.5922319647,1278.21 -4.2439800315,40.5921240058,1276.77 -4.2439679615,40.5920939986,1276.29 -4.243706027,40.5920690205,1273.88 -4.2434320226,40.5921670049,1270.04 -4.2433170229,40.5921960063,1268.6 -4.2431850079,40.5921049789,1267.64 -4.2428809963,40.5917149689,1263.31 -4.2428759672,40.5917130411,1263.31 -4.2427749652,40.591519,1260.91 -4.242920978,40.5912449956,1258.98 -4.2429150268,40.5912460014,1258.98 -4.243121976,40.5910089612,1257.54 -4.2435170151,40.5907699931,1256.1 -4.2435920332,40.5907160137,1255.14 -4.2440500204,40.5905900337,1254.66 -4.2444550339,40.5904860143,1253.7 -4.2446960136,40.5904450268,1252.74 -4.2452529911,40.5902840104,1252.74 -4.2456460185,40.5900079943,1251.77 -4.2459060252,40.5898990296,1250.81 -4.2460890021,40.5898449663,1250.33 -4.2465920001,40.5897309724,1249.85 -4.2467009649,40.5896909907,1249.37 -4.2469440401,40.5895250291,1248.41 -4.2473310325,40.5892319977,1246.49 -4.2474560067,40.5892029963,1245.53 -4.2476020195,40.5889409781,1246.49 -4.2475079745,40.5885750242,1245.53 -4.2474760395,40.5885269959,1245.04 -4.2474339623,40.5883769598,1245.04 -4.2474069726,40.5882000178,1243.6 -4.2475089803,40.587740019,1241.68 -4.2475379817,40.5876530148,1241.2 -4.2476320267,40.5874999613,1240.24 -4.2477709986,40.5871940218,1238.8 -4.2479409836,40.5869050138,1237.83 -4.2479940411,40.5865799636,1235.91 -4.2481149919,40.5865310133,1234.95 -4.2483040038,40.5862480402,1232.55 -4.2481490225,40.5860300269,1233.03 -4.24801399,40.5857059825,1229.66 -4.2479870003,40.585457962,1227.26 -4.2479819711,40.585501967,1227.74 -4.2480869964,40.5852830317,1227.26 -4.2482630163,40.585005004,1226.78 -4.2485950235,40.5847529601,1227.26 -4.2486650124,40.584734017,1228.7 -4.2489660066,40.5845239665,1229.66 -4.249315029,40.5843539815,1227.74 -4.2494270112,40.584118031,1227.74 -4.2494369857,40.5838769674,1228.22 -4.2493959982,40.5835550185,1228.7 -4.249328021,40.5833110213,1228.7 -4.2493020371,40.5829839595,1229.18 -4.2492599599,40.5828399584,1229.18 -4.2492590379,40.5828330014,1229.66 -4.2491619755,40.5826790258,1231.11 -4.249101961,40.5825200211,1232.55 -4.2490729596,40.5824539717,1233.03 -4.249032978,40.5823109765,1233.51 -4.2489410285,40.5821409915,1233.99 -4.2488650046,40.5819430109,1235.43 -4.2488710396,40.5818059668,1236.39 -4.2488209996,40.5816120096,1238.8 -4.2488489952,40.5815700162,1239.28 -4.2489520088,40.581502039,1240.72 -4.2491700221,40.5813090038,1243.6 -4.249202041,40.5812700279,1244.08 -4.2493779771,40.5811009649,1242.64 -4.2494639754,40.5808989611,1240.24 -4.2493939865,40.5807709694,1238.8 -4.249485014,40.5806709733,1235.91 -4.2497020215,40.5806250405,1232.07 -4.2497320287,40.5806200113,1232.07 -4.2500799615,40.5805679597,1228.7 -4.2503510322,40.5805159919,1226.3 -4.2504050117,40.5805109628,1225.82 -4.2506459914,40.5804829672,1224.38 -4.2508220114,40.5804979708,1224.38 -4.2513250094,40.5805220269,1224.38 -4.2518910393,40.5804099608,1221.49 -4.2524529621,40.5802770238,1218.61 -4.2526299879,40.5802070349,1216.69 -4.2529909965,40.5799799692,1213.8 -4.2533670086,40.5797249917,1210.92 -4.2534440383,40.5796730239,1210.44 -4.253565995,40.5795990117,1209 -4.2537639756,40.5794479698,1208.03 -4.2542200349,40.5791779887,1207.55 -4.254238978,40.5791260209,1207.55 -4.2542069592,40.5789980292,1207.55 -4.2538310308,40.5787800159,1207.55 -4.2533919867,40.5784979649,1209 -4.2530500051,40.5782019999,1209.96 -4.2528409604,40.5780650396,1211.4 -4.2526760045,40.5779359583,1212.36 -4.2524060234,40.5775769614,1211.88 -4.2523009982,40.5773170386,1212.84 -4.2522920296,40.5772349797,1212.84 -4.252189016,40.5769919883,1213.32 -4.2520600185,40.576704992,1213.8 -4.252169989,40.5764370225,1214.76 -4.2526009865,40.5762760062,1214.76 -4.2529830337,40.5760610104,1214.76 -4.2532629892,40.5758969765,1215.72 -4.2533039767,40.5758890137,1215.24 -4.2536369897,40.575824976,1216.69 -4.2537769675,40.5758109782,1217.17 -4.2540990002,40.5757389776,1218.61 -4.254465038,40.5755050387,1219.09 -4.2548859771,40.5753170326,1220.05 -4.2553230096,40.5752280168,1221.49 -4.2556359898,40.5751550104,1221.97 -4.2559570167,40.5750309583,1222.45 -4.255974032,40.5750209838,1222.93 -4.2562939692,40.5749120191,1223.42 -4.2566829734,40.5748039763,1223.42 -4.2572350055,40.5748000368,1222.93 -4.2577820085,40.574856028,1223.42 -4.2582669854,40.5749680102,1221.97 -4.2586389743,40.5752249993,1221.97 -4.258696977,40.575258024,1221.97 -4.258703012,40.5752610415,1221.97 -4.2587699834,40.5753280129,1221.97 -4.2587999906,40.575315021,1221.97 -4.2586999945,40.575132966,1220.53 -4.258709969,40.5751179624,1220.53 -4.2587740067,40.5750550143,1218.61 -4.2588829715,40.5749810021,1217.17 -4.2588620167,40.575019978,1217.65 -4.2588989809,40.5748860352,1216.21 -4.2588310037,40.5747769866,1215.72 -4.2585200351,40.5746479891,1214.28 -4.2581750359,40.5744240247,1212.84 -4.2579649854,40.5741599947,1210.92 -4.2575860396,40.5739330128,1209.48 -4.2573550344,40.5737600103,1207.07 -4.2570599914,40.5735959765,1203.71 -4.2568539642,40.5734740198,1200.82 -4.2566450033,40.5733560026,1197.46 -4.2565200292,40.573208984,1194.58 -4.2563939653,40.5729189701,1191.69 -4.2562529817,40.5726169702,1188.33 -4.2561199609,40.5723919999,1185.92 -4.256049972,40.5722479988,1184.48 -4.2558509856,40.572070973,1181.6 -4.2557889596,40.5720050074,1179.67 -4.2557310406,40.5719459988,1179.19 -4.2556189746,40.5718480144,1177.27 -4.2555280309,40.5717729963,1175.35 -4.2555069923,40.5717539694,1174.87 -4.255433986,40.5717159994,1174.39 -4.2553929985,40.5716829747,1171.98 -4.2552250251,40.5715760216,1169.58 -4.2551640049,40.5715229642,1167.66 -4.2550630029,40.5714170169,1165.74 -4.2550530285,40.5714089703,1165.74 -4.2549190018,40.5713280011,1163.81 -4.254798973,40.5712969881,1161.89 -4.2546090391,40.5712460261,1159.01 -4.2544610146,40.5711890291,1157.56 -4.2542799655,40.5711140111,1155.16 -4.2540140077,40.5709359795,1153.72 -4.2538760416,40.5707169604,1150.35 -4.2537509836,40.5704879668,1147.47 -4.2536740378,40.570310019,1144.11 -4.2535929848,40.570089994,1142.66 -4.2535769753,40.5700050015,1141.22 -4.2535469681,40.5699230265,1139.78 -4.2535240017,40.5698050093,1138.34 -4.2534560245,40.5697599985,1135.94 -4.2534509953,40.5697520357,1136.9 -4.2533970159,40.5696269777,1134.49 -4.2533609737,40.5695660412,1133.05 -4.2532789987,40.569511978,1131.61 -4.2532680184,40.5694510415,1130.65 -4.253276987,40.5693969782,1129.69 -4.2532080039,40.5693770293,1127.76 -4.2531360034,40.5692809727,1126.32 -4.25305604,40.5691819824,1124.88 -4.2530199979,40.5691069644,1123.92 -4.2530210037,40.5690799747,1122.96 -4.2530110292,40.5690369755,1122 -4.2529709637,40.5689560063,1120.07 -4.2528729793,40.568832038,1117.67 -4.2528520245,40.5688059703,1117.19 -4.2527770065,40.5687349755,1115.27 -4.2526640184,40.5686369911,1112.38 -4.2526129726,40.5685830116,1110.46 -4.2525070254,40.5685799941,1109.02 -4.2523800395,40.5685019586,1105.65 -4.2523989826,40.5683850311,1104.69 -4.2524529621,40.5683759786,1105.17 -4.252478024,40.5683550239,1104.69 -4.2526200134,40.5683159642,1103.73 -4.2526559718,40.5683059897,1103.73 -4.252824029,40.5682220031,1101.81 -4.2530049942,40.5682550278,1101.33 -4.25373598,40.5682589673,1099.4 -4.2539509758,40.5682749767,1098.44 -4.254880026,40.5684339814,1097.48 -4.255496012,40.56853096,1096.52 -4.2563490383,40.5685339775,1094.6 -4.2568399664,40.5684369989,1093.64 -4.2573289666,40.5683690216,1093.64 -4.2579059768,40.568140028,1094.12 -4.2582470365,40.5679889861,1095.56 -4.2584490404,40.5680080131,1097.48 -4.258577032,40.5680230167,1097.96 -4.2589030042,40.5680769961,1098.92 -4.2589340173,40.5680690333,1099.4 -4.2590960395,40.5680769961,1100.37 -4.2591640167,40.5680800136,1101.33 -4.2593110353,40.5680739786,1102.29 -4.2595289648,40.5681230128,1103.73 -4.2597329803,40.5681429617,1105.17 -4.2597800028,40.5681500025,1105.17 -4.2598769814,40.5681719631,1106.61 -4.259979995,40.5682100169,1106.61 -4.2601710185,40.5682710372,1107.58 -4.2603700049,40.5683149584,1109.02 -4.2605529819,40.568373967,1110.46 -4.2606809735,40.5684789922,1110.94 -4.260860011,40.5685609672,1112.38 -4.2610249668,40.5686169583,1113.34 -4.2611709796,40.5686899647,1114.79 -4.2612889968,40.5687410105,1116.23 -4.2614869773,40.5688669905,1118.15 -4.2616859637,40.5689919647,1119.59 -4.2618960142,40.5690819863,1120.07 -4.2620690167,40.5691509694,1120.55 -4.262249982,40.5692460202,1120.55 -4.2624410056,40.5693610199,1120.55 -4.2624730244,40.5693750177,1121.03 -4.2625539936,40.5694030132,1120.55 -4.2627649661,40.569511978,1121.03 -4.2628069595,40.5695259757,1120.07 -4.2627959792,40.569505021,1120.55 -4.2629689816,40.5696070287,1121.52 -4.2632159963,40.5696959607,1122.96 -4.2634650227,40.5697200168,1124.88 -4.2637009732,40.569712976,1126.8 -4.2639609799,40.5696709827,1129.21 -4.2641570326,40.5695989821,1130.65 -4.2644219846,40.5695279874,1132.09 -4.2646020278,40.5695020035,1133.05 -4.264764972,40.5695030093,1134.97 -4.2650010064,40.569536034,1135.45 -4.2650770303,40.569536034,1136.9 -4.2651640344,40.5695330165,1137.38 -4.2653809581,40.5695399735,1138.82 -4.2655930202,40.5695510376,1139.3 -4.2656350136,40.5695719924,1139.78 -4.2657289747,40.5695719924,1140.26 -4.2659759894,40.5696129799,1140.74 -4.2660569586,40.5696149915,1141.22 -4.2660930008,40.5696099624,1141.22 -4.2663280293,40.5696269777,1142.66 -4.2665980104,40.5696549732,1143.63 -4.2666919716,40.5696729943,1144.59 -4.2667499743,40.5696729943,1144.59 -4.2668720149,40.5697259679,1146.03 -4.2670699954,40.5697389599,1147.47 -4.2670860048,40.5697370321,1147.47 -4.2671519704,40.5697380379,1147.95 -4.2673549801,40.5697620101,1148.43 -4.2675109673,40.5697829649,1149.39 -4.2676630151,40.5697380379,1149.87 -4.2676839698,40.5697289854,1150.35 -4.2678110395,40.5697019957,1149.87 -4.2682319786,40.5697679613,1148.91 -4.2685779836,40.569869969,1146.99 -4.2690679897,40.5699549615,1144.59 -4.269317016,40.5699869804,1143.14 -4.2693399824,40.5699910037,1143.14 -4.269348029,40.5699839629,1142.66 -4.2694460135,40.5699259602,1142.18 -4.2698060162,40.5697139818,1139.3 -4.2700220179,40.5697050132,1137.86 -4.2702220101,40.5696900096,1136.42 -4.2702759895,40.569681963,1135.94 -4.2703840323,40.5695750099,1134.01 -4.2702810187,40.5693030171,1133.05 -4.2699979618,40.5691509694,1132.09 -4.2694529705,40.5691050366,1133.05 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

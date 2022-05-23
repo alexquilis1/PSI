@@ -5,7 +5,7 @@ public class Sendas {
 	Sendas(){
 		try {
 			//constructor of file class having file as argument
-			File f = new File("http://localhost/PSI/ver-sendas.php");
+			File f = new File("C:\\xampp\\htdocs\\PSI\\ver-sendas.php");
 			if(!Desktop.isDesktopSupported()) {
 				//check if Desktop is supported by Platform or not
 				System.out.println("Not supported");
