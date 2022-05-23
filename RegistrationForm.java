@@ -29,7 +29,7 @@ public class registrationForm implements ActionListener {
     JButton resetButton = new JButton("Reset");
 	
 	//Creating constructor
-	registrationForm(){
+	RegistrationForm(){
 		//Calling method from constructor		
 		createWindow();
 	    setLocationAndSize();
