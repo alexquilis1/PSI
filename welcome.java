@@ -1,6 +1,6 @@
 import javax.swing.*;
 import java.awt.event.*;
-public class WelcomeScreen implements ActionListener {
+public class welcome implements ActionListener {
 
 	//Creating object of JFrame class
 	JFrame frame;
@@ -9,7 +9,7 @@ public class WelcomeScreen implements ActionListener {
 	JButton registerButton = new JButton("Registrarse");
 	
 	//Creating constructor
-	WelcomeScreen(){
+	welcome(){
 		//Calling method from constructor
 		createWindow();
 		setLocationAndSize();
@@ -50,12 +50,12 @@ public class WelcomeScreen implements ActionListener {
 	public void actionPerformed(ActionEvent e) {
 		//Coding part of Login Button
 		if(e.getSource()==loginButton) {
-			new LoginForm();
+			new loginForm();
 			frame.setVisible(false);
 		}
 		//Coding part of Register Button
 		else if(e.getSource()==registerButton){
-			new RegistrationForm();
+			new registrationForm();
 			frame.setVisible(false);
 		}
 	}

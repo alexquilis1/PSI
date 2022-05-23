@@ -1,10 +1,13 @@
 import javax.swing.*;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-public class VerPerfil {
+public class VerPerfil implements ActionListener {
 	
 		JFrame frame;
 		
@@ -21,6 +24,8 @@ public class VerPerfil {
 		JLabel genderD = new JLabel();
 		JLabel cityD = new JLabel();
 		JLabel emailD = new JLabel();
+
+		JButton back = new JButton("Volver");
 		
 		
 		VerPerfil(String email){
@@ -29,6 +34,7 @@ public class VerPerfil {
 			createWindow();
 			setLocationsAndSize();
 			addComponentsToFrame();
+			actionEvent();
 		}
 			
 		public void createWindow() {
@@ -52,6 +58,7 @@ public class VerPerfil {
 	        genderD.setBounds(140,143,165,23);
 	        cityD.setBounds(140,193,165,23);
 	        emailD.setBounds(140,243,165,23);
+			back.setBounds(50, 300, 90, 23);
 		}
 		
 		public void addComponentsToFrame() {
@@ -65,7 +72,13 @@ public class VerPerfil {
 			frame.add(genderD);
 			frame.add(cityD);
 			frame.add(emailD);
+			frame.add(back);
 		}
+
+		public void actionEvent() {
+			//Adding Action Listener to buttons
+			 back.addActionListener(this);
+		 }
 		
 		public void connectionDB() {
 			try {
@@ -84,5 +97,15 @@ public class VerPerfil {
 			}catch(SQLException e) {
 				e.printStackTrace();
 			}
+		}
+
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			// TODO Auto-generated method stub
+			if(e.getSource()==back){
+				frame.setVisible(false);
+				new app(email);
+			 }
+			
 		}
 }
