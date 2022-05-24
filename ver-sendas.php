@@ -11,7 +11,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-// Creación variable
+// Creación variable id
 // 2 porq es el primer id de senda que existe
 $id = isset($_GET["id"]) ? $_GET["id"] : '2';
 
@@ -58,7 +58,6 @@ if ($result->num_rows > 0) {
     <!-- Leaflet Omnivore plugin -->
     <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
 
-
     <div class="cabecera">
         <header>
             <h1>
@@ -76,7 +75,6 @@ if ($result->num_rows > 0) {
         </header>
         <div class="cuerpo">
             <div id="map"></div>
-            
             <script>
                 var map = L.map('map').setView([40.41889, -3.69194], 12);
                 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
@@ -105,14 +103,15 @@ if ($result->num_rows > 0) {
                         <?php
                         $sql = "SELECT id, nombre FROM senda ORDER BY id ASC ";
                         $result = $conn->query($sql);
-
                         if ($result->num_rows > 0) {
                             // output data of each row
-                            while ($row = $result->fetch_assoc()) { ?>
+                            while ($row = $result->fetch_assoc()) {
+                        ?>
                                 <tr>
-                                    <td><a href="?id=<?= $row["id"] ?>"><?= $nombre = $row["nombre"] ?> </a></td>
+                                    <td><a href="?id= <?= $row["id"] ?> "> <?= $nombre = $row["nombre"] ?> </a></td>
                                 </tr>
-                        <?php }
+                        <?php
+                            }
                         } else {
                             echo "0 results";
                         }
@@ -130,6 +129,6 @@ if ($result->num_rows > 0) {
 
 </html>
 
-
+<!-- Cerrar conexión con sql -->
 <?php
 $conn->close();
