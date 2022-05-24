@@ -1,6 +1,6 @@
 import javax.swing.*;
 import java.awt.event.*;
-public class AppScreen implements ActionListener {
+public class app implements ActionListener {
 	
 	String email;
 	
@@ -9,7 +9,7 @@ public class AppScreen implements ActionListener {
 	JButton viewProfile = new JButton("Ver mi perfil");
 	JButton consultPaths = new JButton("Consultar sendas");
 	
-	AppScreen(String email){
+	app(String email){
 		this.email = email;
 		createWindow();
 		setLocationAndSize();
@@ -20,7 +20,7 @@ public class AppScreen implements ActionListener {
 	public void createWindow() {
 		frame = new JFrame();
 		frame.setTitle("Aplicación");
-		frame.setBounds(10,10,350,350);
+		frame.setBounds(10,10,350,300);
 		frame.getContentPane().setLayout(null);
 		frame.setVisible(true);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -50,7 +50,7 @@ public class AppScreen implements ActionListener {
 		}
 		if(e.getSource()==consultPaths) {
 			frame.setVisible(false);
-			new VerSendas();
+			new Sendas();
 		}
 	}
 }

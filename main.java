@@ -5,7 +5,7 @@ public class main {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					WelcomeScreen window = new WelcomeScreen();
+					welcome window = new welcome();
 					window.frame.setVisible(true);
 				}catch(Exception e) {
 					e.printStackTrace();

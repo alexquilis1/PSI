@@ -1,9 +1,8 @@
 import javax.swing.*;
 import java.awt.event.*;
-import java.awt.*;
 import java.sql.*;
 
-public class LoginForm implements ActionListener {
+public class loginForm implements ActionListener {
 	
 	//Creating object of JFrame class
 	JFrame frame;
@@ -14,13 +13,13 @@ public class LoginForm implements ActionListener {
 	JTextField emailTextField = new JTextField();
 	JPasswordField passwordTextField = new JPasswordField();
 	
-	JButton loginButton = new JButton("Login");
+	JButton loginButton = new JButton("Log in");
 	JButton resetButton = new JButton("Reset");
 	
 	JCheckBox showPassword = new JCheckBox("Mostrar contraseña");
 	
 	//Creating constructor
-	LoginForm(){
+	loginForm(){
 		//Calling method from constructor
 		createWindow();
 		setLocationAndSize();
@@ -86,7 +85,7 @@ public class LoginForm implements ActionListener {
 				}
 				if(email.equals(emailTextField.getText()) && password.equals(passwordTextField.getText())) {
 					frame.setVisible(false);
-					new AppScreen(emailTextField.getText());
+					new app(emailTextField.getText());
 				}
 				else {
 					JOptionPane.showMessageDialog(null, "Los datos introducidos son incorrectos");
