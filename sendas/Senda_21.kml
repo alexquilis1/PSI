@@ -16,9 +16,12 @@
 			<color>ff1b7edd</color>
 		</PolyStyle>
 	</Style>
-	<Senda>
+	<Folder>
+    <name>Line Features</name>
+    <description>Line Features</description>
+    <Placemark>
 		<styleUrl>#sn_ylw-pushpin</styleUrl>
-		<gx:balloonVisibility>1</gx:balloonVisibility>
+	
 		<MultiGeometry>
 			<LineString>
 				<coordinates>
@@ -41,6 +44,7 @@
 				</coordinates>
 			</LineString>
 		</MultiGeometry>
-	</Senda>
+	</Placemark>
+  </Folder>
 </Document>
 </kml>

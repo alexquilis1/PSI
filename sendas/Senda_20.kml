@@ -16,9 +16,12 @@
 			<color>ffdc7d21</color>
 		</PolyStyle>
 	</Style>
-	<Senda>
+	<Folder>
+    <name>Line Features</name>
+    <description>Line Features</description>
+    <Placemark>
 		<styleUrl>#sn_ylw-pushpin</styleUrl>
-		<gx:balloonVisibility>1</gx:balloonVisibility>
+	
 			<MultiGeometry>
 				<LineString>
 					<coordinates>
@@ -105,6 +108,7 @@
 -3.915241649508172,40.24398877952331,0 -3.915339894791081,40.24395903502017,0 -3.915276967837853,40.24398075337341,0 -3.91515915613416,40.24402688402442,0 -3.915170186575261,40.24402038690938,0 -3.915229040329651,40.24399458733198,0 -3.915241649508172,40.24398877952331,0 </coordinates>
 				</LineString>
 			</MultiGeometry>
-	</Senda>
+	</Placemark>
+  </Folder>
 </Document>
 </kml>
