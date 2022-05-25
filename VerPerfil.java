@@ -1,5 +1,4 @@
 import javax.swing.*;
-
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.sql.Connection;
@@ -10,7 +9,7 @@ import java.sql.SQLException;
 public class VerPerfil implements ActionListener {
 	
 		JFrame frame;
-		
+		ImageIcon img = new ImageIcon("logo/tortuga_fav.png");
 		String email;
 		
 		JLabel usernameLabel = new JLabel("Usuario");
@@ -39,6 +38,7 @@ public class VerPerfil implements ActionListener {
 			
 		public void createWindow() {
 			frame = new JFrame();
+			frame.setIconImage(img.getImage());
 			frame.setTitle("Ver perfil");
 			frame.setBounds(40,40,380,400);
 			frame.getContentPane().setLayout(null);
