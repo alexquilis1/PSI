@@ -3,25 +3,36 @@ import java.awt.event.*;
 import java.sql.*;
 
 public class loginForm implements ActionListener {
-	
-	//Creating object of JFrame class
+
+	// Creating object of JFrame class
 	JFrame frame;
 	ImageIcon img = new ImageIcon("logo/tortuga_fav.png");
 	JLabel emailLabel = new JLabel("Email");
 	JLabel passwordLabel = new JLabel("Contraseña");
-	
+
 	JTextField emailTextField = new JTextField();
 	JPasswordField passwordTextField = new JPasswordField();
-	
+
 	JButton loginButton = new JButton("Log in");
 	JButton resetButton = new JButton("Reset");
+
+	/*
+	 * Introducir una imagen en un JButton
+	 * try {
+	 * Image img = ImageIO.read(getClass().getResource("resources/water.bmp"));
+	 * button.setIcon(new ImageIcon(img));
+	 * } catch (Exception ex) {
+	 * System.out.println(ex);
+	 * }
+	 */
+
 	JButton backButton = new JButton("Volver atrás");
 
 	JCheckBox showPassword = new JCheckBox("Mostrar contraseña");
-	
-	//Creating constructor
-	loginForm(){
-		//Calling method from constructor
+
+	// Creating constructor
+	loginForm() {
+		// Calling method from constructor
 		createWindow();
 		setLocationAndSize();
 		addComponentsToFrame();
@@ -29,7 +40,7 @@ public class loginForm implements ActionListener {
 	}
 
 	public void createWindow() {
-		//Setting properties of JFrame
+		// Setting properties of JFrame
 		frame = new JFrame();
 		frame.setIconImage(img.getImage());
 		frame.setTitle("Login");
@@ -39,21 +50,21 @@ public class loginForm implements ActionListener {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setResizable(false);
 	}
-	
+
 	public void setLocationAndSize() {
-		//Setting location and size of each component
-		emailLabel.setBounds(50,50,100,30);
-		passwordLabel.setBounds(50,105,100,30);
-		emailTextField.setBounds(150,50,150,30);
-		passwordTextField.setBounds(150,105,150,30);
-		loginButton.setBounds(20,190,100,30);
-		resetButton.setBounds(130,190,100,30);
+		// Setting location and size of each component
+		emailLabel.setBounds(50, 50, 100, 30);
+		passwordLabel.setBounds(50, 105, 100, 30);
+		emailTextField.setBounds(150, 50, 150, 30);
+		passwordTextField.setBounds(150, 105, 150, 30);
+		loginButton.setBounds(20, 190, 100, 30);
+		resetButton.setBounds(130, 190, 100, 30);
 		backButton.setBounds(240, 190, 100, 30);
-		showPassword.setBounds(150,135,150,30);
+		showPassword.setBounds(150, 135, 150, 30);
 	}
-	
+
 	public void addComponentsToFrame() {
-		//Adding components to frame
+		// Adding components to frame
 		frame.add(emailLabel);
 		frame.add(passwordLabel);
 		frame.add(emailTextField);
@@ -63,61 +74,60 @@ public class loginForm implements ActionListener {
 		frame.add(backButton);
 		frame.add(showPassword);
 	}
-	
+
 	public void actionEvent() {
-		//Adding action listener to button
+		// Adding action listener to button
 		loginButton.addActionListener(this);
 		resetButton.addActionListener(this);
 		backButton.addActionListener(this);
 		showPassword.addActionListener(this);
 	}
-	
+
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		//Coding Part of LOGIN button
-		if(e.getSource()==loginButton) {
+		// Coding Part of LOGIN button
+		if (e.getSource() == loginButton) {
 			try {
-				//Creating Connection Object
-				Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/db","root","root");
-				PreparedStatement ps = connection.prepareStatement("Select * from user where email = ? and password = ?");
+				// Creating Connection Object
+				Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/db", "root", "root");
+				PreparedStatement ps = connection
+						.prepareStatement("Select * from user where email = ? and password = ?");
 				ps.setString(1, emailTextField.getText());
 				ps.setString(2, passwordTextField.getText());
 				ResultSet rs = ps.executeQuery();
 				String email = "";
 				String password = "";
-				while(rs.next()) {
+				while (rs.next()) {
 					email = rs.getString("email");
 					password = rs.getString("password");
 				}
-				if(email.equals(emailTextField.getText()) && password.equals(passwordTextField.getText())) {
+				if (email.equals(emailTextField.getText()) && password.equals(passwordTextField.getText())) {
 					frame.setVisible(false);
 					new app(emailTextField.getText());
-				}
-				else {
+				} else {
 					JOptionPane.showMessageDialog(null, "Los datos introducidos son incorrectos");
 				}
-			}catch(SQLException e1) {
+			} catch (SQLException e1) {
 				e1.printStackTrace();
 			}
 		}
-		//Coding Part of RESET button
-        if (e.getSource() == resetButton) {
-            emailTextField.setText("");
-            passwordTextField.setText("");
-        }
-		//Coding part of goBack button
-		if(e.getSource() == backButton){
+		// Coding Part of RESET button
+		if (e.getSource() == resetButton) {
+			emailTextField.setText("");
+			passwordTextField.setText("");
+		}
+		// Coding part of goBack button
+		if (e.getSource() == backButton) {
 			frame.setVisible(false);
 			new welcome();
 		}
-       	//Coding Part of showPassword JCheckBox
-        if (e.getSource() == showPassword) {
-            if (showPassword.isSelected()) {
-                passwordTextField.setEchoChar((char)0);
-            } else {
-                passwordTextField.setEchoChar('*');
-            }
-        }
+		// Coding Part of showPassword JCheckBox
+		if (e.getSource() == showPassword) {
+			if (showPassword.isSelected()) {
+				passwordTextField.setEchoChar((char) 0);
+			} else {
+				passwordTextField.setEchoChar('*');
+			}
+		}
 	}
 }
-
