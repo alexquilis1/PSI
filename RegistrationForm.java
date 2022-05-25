@@ -6,7 +6,7 @@ public class registrationForm implements ActionListener {
 
 	//Creating object of JFrame class
 	JFrame frame;
-	
+	ImageIcon img = new ImageIcon("logo/tortuga_fav.png");
 	String[] gender={"Hombre","Mujer","Otro"};
 	
 	JLabel usernameLabel = new JLabel("Usuario");
@@ -40,6 +40,7 @@ public class registrationForm implements ActionListener {
 	public void createWindow() {
 		//Setting properties of JFrame
 		frame = new JFrame();
+        frame.setIconImage(img.getImage());
 		frame.setTitle("Formulario de registro");
 		frame.setBounds(40, 40, 380, 500);
 		frame.getContentPane().setLayout(null);
@@ -121,7 +122,7 @@ public class registrationForm implements ActionListener {
                     new loginForm();
                 }
                 else {
-                    JOptionPane.showMessageDialog(null,"La contraseña no coincide");
+                    JOptionPane.showMessageDialog(null,"Las contraseñas no coinciden");
                 }
 
             } catch (SQLException e1) {
