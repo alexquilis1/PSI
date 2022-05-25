@@ -40,7 +40,7 @@ if ($result->num_rows > 0) {
 <head lang="en">
     <meta charset="UTF-8">
     <title>
-        Sendas
+        Traccia
     </title>
     <link rel="stylesheet" href="estilo-html.css">
 
@@ -51,6 +51,9 @@ if ($result->num_rows > 0) {
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="logo/tortuga_fav.png" type="image/png">
 </head>
 
 <body>
@@ -61,12 +64,12 @@ if ($result->num_rows > 0) {
     <div class="cabecera">
         <header>
             <h1>
-                SENDAS
+                TRACCIA
             </h1>
             <!-- Menú de navegación del sitio -->
             <div id="navegador">
                 <ul>
-                    <li><a href="ver-sendas.html">Página principal</a></li>
+                    <li><a href="ver-sendas.php">Página principal</a></li>
                     <!-- <li><a href="accesos-tematicos.html">Accesos temáticos</a></li> -->
                     <li><a href="enlaces.html">Enlaces de interés</a></li>
                 </ul>
@@ -108,7 +111,7 @@ if ($result->num_rows > 0) {
                             while ($row = $result->fetch_assoc()) {
                         ?>
                                 <tr>
-                                    <td><a href="?id= <?= $row["id"] ?> "> <?= $nombre = $row["nombre"] ?> </a></td>
+                                    <td><a href="?id=<?= $row["id"] ?> "> <?= $nombre = $row["nombre"] ?> </a></td>
                                 </tr>
                         <?php
                             }
@@ -118,7 +121,18 @@ if ($result->num_rows > 0) {
                         ?>
                     </tbody>
                 </table>
+                <table class="table-scroll small-first-col">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                        </tr>
+                    </thead>
+                    <tbody class="body-half-screen">
+                        
+                    </tbody>
+                </table>
             </div>
+
         </div>
         <div class="pie">
             <footer>
