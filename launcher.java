@@ -1,7 +1,7 @@
 import java.awt.EventQueue;
 import javax.swing.UIManager;
 
-public class main {
+public class launcher {
 
 	public static void main(String[] args) {
 
