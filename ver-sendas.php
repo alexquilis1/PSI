@@ -15,7 +15,7 @@ if ($conn->connect_error) {
 // 2 porq es el primer id de senda que existe
 $id = isset($_GET["id"]) ? $_GET["id"] : '2';
 
-$sql = "SELECT id, nombre, dificultad, señales, longitud, cota_max, cota_min FROM senda WHERE id = " . $id;
+$sql = "SELECT id, nombre, dificultad, inicio, final, señales, longitud, cota_max, cota_min FROM senda WHERE id = " . $id;
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
@@ -24,6 +24,8 @@ if ($result->num_rows > 0) {
         $id = $row["id"];
         $nombre = $row["nombre"];
         $dificultad = $row["dificultad"];
+        $inicio = $row["inicio"];
+        $final = $row["final"];
         $señales = $row["señales"];
         $longitud = $row["longitud"];
         $cota_max = $row["cota_max"];
@@ -77,6 +79,8 @@ if ($result->num_rows > 0) {
             </div>
         </header>
         <div class="cuerpo">
+            <!-- Para probar que funciona de manera correcta -->
+            <?= $nombre ?>
             <div id="map"></div>
             <script>
                 var map = L.map('map').setView([40.41889, -3.69194], 12);
@@ -124,11 +128,38 @@ if ($result->num_rows > 0) {
                 <table class="table-scroll small-first-col">
                     <thead>
                         <tr>
-                            <th>Nombre</th>
+                            <th><?= $nombre ?> </a></th>
                         </tr>
                     </thead>
                     <tbody class="body-half-screen">
-                        
+                        <tr>
+                            <td>Dificultad</td>
+                            <td><?= $dificultad ?> </a></td>
+                        </tr>
+                        <tr>
+                            <td>Inicio</td>
+                            <td><?= $inicio ?></td>
+                        </tr>
+                        <tr>
+                            <td>Final</td>
+                            <td><?= $final ?></td>
+                        </tr>
+                        <tr>
+                            <td>Longitud</td>
+                            <td><?= $longitud ?></td>
+                        </tr>
+                        <tr>
+                            <td>Señalización</td>
+                            <td><?= $señales ?></td>
+                        </tr>
+                        <tr>
+                            <td>Cota máxima</td>
+                            <td><?= $cota_max ?></td>
+                        </tr>
+                        <tr>
+                            <td>Cota mínima</td>
+                            <td><?= $cota_min ?></td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
