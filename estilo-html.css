@@ -1,131 +1,147 @@
 body {
-    font-family: Sans-serif;
-    color:black;
-    background-color: whitesmoke;
- }
-header{
-    background-color: #556b2f;
-    color: #ffdf00;
-    clear: both;
-    width: auto;
-    text-align: center;
-    padding: 40px;
-    font-size: 1em;
-    font-family: 'Paytone One', sans-serif;
-    height: auto;
-}
-h1{
-    font-size: 5em;
-}
-#navegador ul{
-    list-style-type: none;
-    text-align: center;
-}
-#navegador li{
-    display: inline-block;
-    text-align: center;
-    margin: 0 5px 0 0;
-}
-#navegador li a{
-    padding: 15px 30px;
-    color: #556b2f;
-    background-color: #ffdf00;
-    text-decoration: none;
-}
-#navegador li a:hover{
-    background-color: #a8b292;
-    color: #fff;
-}
- .cuerpo{
-     padding: 1em;
-     padding-bottom: 1.5%;
- }
- #map{
-    position: relative; 
-    margin: 1em;
-    height: 500px;
-    width: auto;
- }
-footer{
-    font-family: 'Paytone One', sans-serif;
-    font-size: 15px;
-    background-color: #556b2f;
-    width: auto;
-    clear: both;
-    color: #ffdf00;
-    padding: 15px;
-    text-align: center;
-    position: auto;
+  font-family: Sans-serif;
+  color: black;
+  background-color: whitesmoke;
 }
 
-a:link{
+header {
+  background-color: #556b2f;
+  color: #ffdf00;
+  clear: both;
+  width: auto;
+  text-align: center;
+  padding: 40px;
+  font-size: 1em;
+  font-family: 'Paytone One', sans-serif;
+  height: auto;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+#navegador ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+#navegador li {
+  display: inline-block;
+  text-align: center;
+  margin: 0 5px 0 0;
+}
+
+#navegador li a {
+  padding: 15px 30px;
+  color: #556b2f;
+  background-color: #ffdf00;
+  text-decoration: none;
+}
+
+#navegador li a:hover {
+  background-color: #a8b292;
+  color: #fff;
+}
+
+.cuerpo {
+  padding: 1em;
+  padding-bottom: 1.5%;
+}
+
+#map {
+  position: relative;
+  margin: 1em;
+  height: 500px;
+  width: auto;
+}
+
+footer {
+  font-family: 'Paytone One', sans-serif;
+  font-size: 15px;
+  background-color: #556b2f;
+  width: auto;
+  clear: both;
+  color: #ffdf00;
+  padding: 15px;
+  text-align: center;
+  position: auto;
+}
+
+/* a:link{
     color: blue;
 }
 a:visited{
     color:purple;
+} */
+
+.container {
+  position: left;
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
 }
 
-.container{
-    position: left;
-    padding: 1rem;
-    margin: 1rem;
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-  }
-  .table-scroll{
-    width:50%;
-    display: block;
-    empty-cells: show;
-    /* Decoration */
-    border-spacing: 0;
-    border: 1px solid;
-    flex: 50%;
-  }
+.table-scroll {
+  width: 50%;
+  display: block;
+  empty-cells: show;
+  /* Decoration */
+  border-spacing: 0;
+  border: 1px solid;
+  flex: 50%;
+}
 
-  .th,td{
-    border-bottom: 1px solid black;
-  }
-  
-  .table-scroll thead{
-    background-color: #f1f1f1;  
-    position:relative;
-    display: block;
-    width:100%;
-    
-  }
-  
-  .table-scroll tbody{
-    /* Position */
-    display: block; position:relative;
-    width:100%; overflow-y:scroll;
-    /* Decoration */
-    border-top: 1px solid rgba(0,0,0,0.2);
-  }
-  
-  .table-scroll tr{
-    width: 100%;
-    display:flex;
-  }
-  
-  .table-scroll td,.table-scroll th{
-    flex-basis:100%;
-    flex-grow:2;
-    display: block;
-    padding: 1rem;
-    text-align:left;
-  }
-  
-  /* Other options */
-  
-  .table-scroll.small-first-col td:first-child,
-  .table-scroll.small-first-col th:first-child{
-    flex-basis:20%;
-    flex-grow:1;
-  }
-  
-  .body-half-screen{
-    max-height: 50vh;
-  }
-  
-  .small-col{flex-basis:10%;}
+.th,
+td {
+  border-bottom: 1px solid black;
+}
+
+.table-scroll thead {
+  background-color: #f1f1f1;
+  position: relative;
+  display: block;
+  width: 100%;
+
+}
+
+.table-scroll tbody {
+  /* Position */
+  display: block;
+  position: relative;
+  width: 100%;
+  overflow-y: scroll;
+  /* Decoration */
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.table-scroll tr {
+  width: 100%;
+  display: flex;
+}
+
+.table-scroll td,
+.table-scroll th {
+  flex-basis: 100%;
+  flex-grow: 2;
+  display: block;
+  padding: 1rem;
+  text-align: left;
+}
+
+/* Other options */
+
+.table-scroll.small-first-col td:first-child,
+.table-scroll.small-first-col th:first-child {
+  flex-basis: 20%;
+  flex-grow: 1;
+}
+
+.body-half-screen {
+  max-height: 50vh;
+}
+
+.small-col {
+  flex-basis: 10%;
+}
