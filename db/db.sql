@@ -19,11 +19,37 @@ describe user;
 
 select * from user;
 
+create table categoria
+(
+id_c int,
+nombre_c varchar(50),
+primary key(id_c)
+);
+
+insert into categoria (id_c,nombre_c)
+values('1','Observación de aves');
+
+insert into categoria (id_c,nombre_c)
+values('2','Familia con niños');
+
+insert into categoria (id_c,nombre_c)
+values('3','Ciclismo');
+
+insert into categoria (id_c,nombre_c)
+values('4','Accesibilidad');
+
+insert into categoria (id_c,nombre_c)
+values('5','Equitación');
+
+insert into categoria (id_c,nombre_c)
+values('6','Montañismo');
+
+select * from categoria;
+
 create table senda
 (
 	id int,
     nombre varchar(500),
-    categoría varchar(50),
     dificultad varchar(500),
     inicio varchar(500),
     final varchar(500),
@@ -31,7 +57,9 @@ create table senda
     longitud varchar(500),
     cota_max varchar(500),
     cota_min varchar(500),
-    primary key (id)
+    user_id int,
+    primary key (id),
+    foreign key (user_id) references user(user_id)
 );
 
 describe senda;
@@ -39,4 +67,12 @@ describe senda;
 select * from senda;
 
 select count(*) as id_senda from senda;
--- Hay 72 sendas --
+-- Hay 71 sendas --
+
+create table pertenecen
+(
+id_s int,
+id_c int,
+foreign key(id_s) references senda(id),
+foreign key(id_c) references categoria(id_c)
+);
