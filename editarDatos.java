@@ -44,7 +44,6 @@ public class editarDatos implements ActionListener {
         actionEvent();
     }
 
-
     public void createWindow() {
         frame = new JFrame();
         frame.setIconImage(img.getImage());
@@ -104,9 +103,10 @@ public class editarDatos implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == saveChangesButton) {
             frame.setVisible(false);
-            try{
+            try {
                 c = DriverManager.getConnection(DB_URL, DB_USER, DB_PSSWD);
-                ps = c.prepareStatement("update user set username = ?, name = ?, gender = ?, password = ?, cpassword = ?, city = ?, email = ? where email = ?");
+                ps = c.prepareStatement(
+                        "update user set username = ?, name = ?, gender = ?, password = ?, cpassword = ?, city = ?, email = ? where email = ?");
                 ps.setString(1, usernameTF.getText());
                 ps.setString(2, nameTF.getText());
                 ps.setString(3, genderCB.getSelectedItem().toString());
@@ -115,16 +115,15 @@ public class editarDatos implements ActionListener {
                 ps.setString(6, cityTF.getText());
                 ps.setString(7, emailTF.getText());
                 ps.setString(8, email);
-                if(passwordPF.getText().equals(cpasswordPF.getText())){
+                if (passwordPF.getText().equals(cpasswordPF.getText())) {
                     ps.executeUpdate();
                     JOptionPane.showMessageDialog(null, "Datos actualizados");
                     frame.setVisible(false);
                     new app(email);
-                }
-                else{
+                } else {
                     JOptionPane.showMessageDialog(null, "Las contraseñas no coinciden");
                 }
-            }catch(SQLException e1){
+            } catch (SQLException e1) {
                 e1.printStackTrace();
             }
         }
