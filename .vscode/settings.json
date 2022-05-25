@@ -3,5 +3,20 @@
         "lib/**/*.jar",
         "c:\\Users\\User\\Downloads\\mysql-connector-java-8.0.28\\mysql-connector-java-8.0.28\\mysql-connector-java-8.0.28.jar",
         "c:\\Users\\User\\Downloads\\JTattoo-1.6.13.jar"
+    ],
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "MySQL Local",
+            "database": "db",
+            "username": "root",
+            "password": "root"
+        }
     ]
 }
