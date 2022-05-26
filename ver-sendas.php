@@ -22,7 +22,7 @@ if ($result->num_rows > 0) {
     // output data of each row
     while ($row = $result->fetch_assoc()) {
         $id = $row["id"];
-        $nombre = $row["nombre"];
+        $nombre1 = $row["nombre"];
         $dificultad = $row["dificultad"];
         $inicio = $row["inicio"];
         $final = $row["final"];
@@ -63,24 +63,23 @@ if ($result->num_rows > 0) {
     <!-- Leaflet Omnivore plugin -->
     <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
 
-    <div class="cabecera">
-        <header>
-            <h1>
-                TRACCIA
-            </h1>
-            <!-- Menú de navegación del sitio -->
-            <div id="navegador">
-                <ul>
-                    <li><a href="ver-sendas.php">Página principal</a></li>
-                    <!-- <li><a href="accesos-tematicos.html">Accesos temáticos</a></li> -->
-                    <li><a href="enlaces.html">Enlaces de interés</a></li>
-                </ul>
-                </nav>
-            </div>
-        </header>
+        <div class="cabecera">
+            <header>
+                <h1>
+                    TRACCIA
+                </h1>
+                <!-- Menú de navegación del sitio -->
+                <div id="navegador">
+                    <ul>
+                        <li><a href="ver-sendas.php">Página principal</a></li>
+                        <li><a href="estadisticas.html">Estadísticas</a></li>
+                        <li><a href="enlaces.html">Enlaces de interés</a></li>
+                    </ul>
+                    </nav>
+                </div>
+            </header>
+        </div>  
         <div class="cuerpo">
-            <!-- Para probar que funciona de manera correcta -->
-            <?= $nombre ?>
             <div id="map"></div>
             <script>
                 var map = L.map('map').setView([40.41889, -3.69194], 12);
@@ -128,36 +127,36 @@ if ($result->num_rows > 0) {
                 <table class="table-scroll small-first-col">
                     <thead>
                         <tr>
-                            <th><?= $nombre ?> </a></th>
+                            <th><?= $nombre1 ?> </a></th>
                         </tr>
                     </thead>
                     <tbody class="body-half-screen">
                         <tr>
-                            <td>Dificultad</td>
+                            <td><b>Dificultad</b></td>
                             <td><?= $dificultad ?> </a></td>
                         </tr>
                         <tr>
-                            <td>Inicio</td>
+                            <td><b>Inicio</b></td>
                             <td><?= $inicio ?></td>
                         </tr>
                         <tr>
-                            <td>Final</td>
+                            <td><b>Final</b></td>
                             <td><?= $final ?></td>
                         </tr>
                         <tr>
-                            <td>Longitud</td>
+                            <td><b>Longitud</b></td>
                             <td><?= $longitud ?></td>
                         </tr>
                         <tr>
-                            <td>Señalización</td>
+                            <td><b>Señalización</b></td>
                             <td><?= $señales ?></td>
                         </tr>
                         <tr>
-                            <td>Cota máxima</td>
+                            <td><b>Cota máxima</b></td>
                             <td><?= $cota_max ?></td>
                         </tr>
                         <tr>
-                            <td>Cota mínima</td>
+                            <td><b>Cota mínima</b></td>
                             <td><?= $cota_min ?></td>
                         </tr>
                     </tbody>
