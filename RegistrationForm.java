@@ -25,6 +25,7 @@ public class RegistrationForm implements ActionListener {
     JTextField cityTextField = new JTextField();
     JTextField emailTextField = new JTextField();
 
+    JButton backButton = new JButton("Volver atrás");
     JButton registerButton = new JButton("Registrar");
     JButton resetButton = new JButton("Reset");
 
@@ -65,8 +66,9 @@ public class RegistrationForm implements ActionListener {
         confirmPasswordField.setBounds(180, 243, 165, 23);
         cityTextField.setBounds(180, 293, 165, 23);
         emailTextField.setBounds(180, 343, 165, 23);
-        registerButton.setBounds(60, 400, 100, 35);
-        resetButton.setBounds(210, 400, 100, 35);
+        backButton.setBounds(250, 400,100,35);
+        registerButton.setBounds(30, 400, 100, 35);
+        resetButton.setBounds(140, 400, 100, 35);
     }
 
     public void addComponentsToFrame() {
@@ -87,10 +89,12 @@ public class RegistrationForm implements ActionListener {
         frame.add(emailTextField);
         frame.add(registerButton);
         frame.add(resetButton);
-    }
+        frame.add(backButton);
+    }   
 
     public void actionEvent() {
         // Adding Action Listener to buttons
+        backButton.addActionListener(this);
         registerButton.addActionListener(this);
         resetButton.addActionListener(this);
     }
@@ -136,6 +140,10 @@ public class RegistrationForm implements ActionListener {
             confirmPasswordField.setText("");
             cityTextField.setText("");
             emailTextField.setText("");
+        }
+        if (e.getSource() == backButton)  {
+            frame.setVisible(false);
+            new welcome();
         }
     }
 }
