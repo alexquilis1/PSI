@@ -6,9 +6,11 @@ public class welcome implements ActionListener {
 	// Creating object of JFrame class
 	JFrame frame;
 	ImageIcon img = new ImageIcon("logo/tortuga_fav.png");
-	JLabel title = new JLabel("Sendrid");
 	JButton loginButton = new JButton("Login");
 	JButton registerButton = new JButton("Registrarse");
+
+	ImageIcon logo = new ImageIcon("logo/logo.png");
+	JLabel logolabel = new JLabel(logo);
 
 	// Creating constructor
 	welcome() {
@@ -24,7 +26,7 @@ public class welcome implements ActionListener {
 		frame = new JFrame();
 		frame.setIconImage(img.getImage());
 		frame.setTitle("Traccia");
-		frame.setBounds(10, 10, 300, 240);
+		frame.setBounds(10, 10, 300, 270);
 		// Saber qué es??
 		frame.getContentPane().setLayout(null);
 		frame.setVisible(true);
@@ -34,13 +36,13 @@ public class welcome implements ActionListener {
 
 	public void setLocationAndSize() {
 		// Setting location and size of each component
-		title.setBounds(120, 40, 200, 50);
-		loginButton.setBounds(35, 100, 100, 30);
-		registerButton.setBounds(155, 100, 100, 30);
+		logolabel.setBounds(20, 20, 250, 150);
+		loginButton.setBounds(35, 185, 100, 30);
+		registerButton.setBounds(155, 185, 100, 30);
 	}
 
 	public void addComponentsToFrame() {
-		frame.add(title);
+		frame.add(logolabel);
 		frame.add(loginButton);
 		frame.add(registerButton);
 	}
