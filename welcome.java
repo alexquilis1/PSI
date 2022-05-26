@@ -58,12 +58,12 @@ public class welcome implements ActionListener {
 	public void actionPerformed(ActionEvent e) {
 		// Coding part of Login Button
 		if (e.getSource() == loginButton) {
-			new loginForm();
+			new LoginForm();
 			frame.setVisible(false);
 		}
 		// Coding part of Register Button
 		else if (e.getSource() == registerButton) {
-			new registrationForm();
+			new RegistrationForm();
 			frame.setVisible(false);
 		}
 	}

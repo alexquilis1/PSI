@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.event.*;
 import java.sql.*;
 
-public class registrationForm implements ActionListener {
+public class RegistrationForm implements ActionListener {
 
     // Creating object of JFrame class
     JFrame frame;
@@ -29,7 +29,7 @@ public class registrationForm implements ActionListener {
     JButton resetButton = new JButton("Reset");
 
     // Creating constructor
-    registrationForm() {
+    RegistrationForm() {
         // Calling method from constructor
         createWindow();
         setLocationAndSize();
@@ -118,7 +118,7 @@ public class registrationForm implements ActionListener {
                     Pstatement.executeUpdate();
                     JOptionPane.showMessageDialog(null, "Datos registrados correctamente");
                     frame.setVisible(false);
-                    new loginForm();
+                    new LoginForm();
                 } else {
                     JOptionPane.showMessageDialog(null, "Las contraseñas no coinciden");
                 }

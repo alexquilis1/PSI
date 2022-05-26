@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.event.*;
 import java.sql.*;
 
-public class loginForm implements ActionListener {
+public class LoginForm implements ActionListener {
 
 	// Creating object of JFrame class
 	JFrame frame;
@@ -31,7 +31,7 @@ public class loginForm implements ActionListener {
 	JCheckBox showPassword = new JCheckBox("Mostrar contraseña");
 
 	// Creating constructor
-	loginForm() {
+	LoginForm() {
 		// Calling method from constructor
 		createWindow();
 		setLocationAndSize();
