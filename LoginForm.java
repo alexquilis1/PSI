@@ -16,16 +16,6 @@ public class LoginForm implements ActionListener {
 	JButton loginButton = new JButton("Log in");
 	JButton resetButton = new JButton("Reset");
 
-	/*
-	 * Introducir una imagen en un JButton
-	 * try {
-	 * Image img = ImageIO.read(getClass().getResource("resources/water.bmp"));
-	 * button.setIcon(new ImageIcon(img));
-	 * } catch (Exception ex) {
-	 * System.out.println(ex);
-	 * }
-	 */
-
 	JButton backButton = new JButton("Volver atrás");
 
 	JCheckBox showPassword = new JCheckBox("Mostrar contraseña");
@@ -57,9 +47,9 @@ public class LoginForm implements ActionListener {
 		passwordLabel.setBounds(50, 105, 100, 30);
 		emailTextField.setBounds(150, 50, 150, 30);
 		passwordTextField.setBounds(150, 105, 150, 30);
-		loginButton.setBounds(20, 190, 100, 30);
-		resetButton.setBounds(130, 190, 100, 30);
-		backButton.setBounds(240, 190, 100, 30);
+		loginButton.setBounds(20, 200, 100, 30);
+		resetButton.setBounds(130, 200, 100, 30);
+		backButton.setBounds(240, 200, 100, 30);
 		showPassword.setBounds(150, 135, 150, 30);
 	}
 
