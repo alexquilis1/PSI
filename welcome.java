@@ -37,8 +37,8 @@ public class welcome implements ActionListener {
 	public void setLocationAndSize() {
 		// Setting location and size of each component
 		logolabel.setBounds(20, 20, 250, 150);
-		loginButton.setBounds(35, 185, 100, 30);
-		registerButton.setBounds(155, 185, 100, 30);
+		loginButton.setBounds(35, 180, 100, 30);
+		registerButton.setBounds(155, 180, 100, 30);
 	}
 
 	public void addComponentsToFrame() {
