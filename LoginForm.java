@@ -2,9 +2,15 @@ import javax.swing.*;
 import java.awt.event.*;
 import java.sql.*;
 
+<<<<<<< Updated upstream
 public class loginForm implements ActionListener {
 	
 	//Creating object of JFrame class
+=======
+public class LoginForm implements ActionListener {
+
+	// Creating object of JFrame class
+>>>>>>> Stashed changes
 	JFrame frame;
 	
 	JLabel emailLabel = new JLabel("Email");
@@ -17,10 +23,17 @@ public class loginForm implements ActionListener {
 	JButton resetButton = new JButton("Reset");
 	
 	JCheckBox showPassword = new JCheckBox("Mostrar contraseña");
+<<<<<<< Updated upstream
 	
 	//Creating constructor
 	loginForm(){
 		//Calling method from constructor
+=======
+
+	// Creating constructor
+	LoginForm() {
+		// Calling method from constructor
+>>>>>>> Stashed changes
 		createWindow();
 		setLocationAndSize();
 		addComponentsToFrame();

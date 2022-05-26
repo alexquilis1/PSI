@@ -48,6 +48,7 @@ public class welcome implements ActionListener {
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
+<<<<<<< Updated upstream
 		//Coding part of Login Button
 		if(e.getSource()==loginButton) {
 			new loginForm();
@@ -56,6 +57,16 @@ public class welcome implements ActionListener {
 		//Coding part of Register Button
 		else if(e.getSource()==registerButton){
 			new registrationForm();
+=======
+		// Coding part of Login Button
+		if (e.getSource() == loginButton) {
+			new LoginForm();
+			frame.setVisible(false);
+		}
+		// Coding part of Register Button
+		else if (e.getSource() == registerButton) {
+			new RegistrationForm();
+>>>>>>> Stashed changes
 			frame.setVisible(false);
 		}
 	}

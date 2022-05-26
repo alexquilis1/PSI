@@ -57,6 +57,7 @@ if ($result->num_rows > 0) {
     <!-- Leaflet Omnivore plugin -->
     <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
 
+<<<<<<< Updated upstream
 
     <div class="cabecera">
         <header>
@@ -73,6 +74,24 @@ if ($result->num_rows > 0) {
                 </nav>
             </div>
         </header>
+=======
+        <div class="cabecera">
+            <header>
+                <h1>
+                    TRACCIA
+                </h1>
+                <!-- Menú de navegación del sitio -->
+                <div id="navegador">
+                    <ul>
+                        <li><a href="ver-sendas.php">Página principal</a></li>
+                        <li><a href="estadisticas.php">Estadísticas</a></li>
+                        <li><a href="enlaces.html">Enlaces de interés</a></li>
+                    </ul>
+                    </nav>
+                </div>
+            </header>
+        </div>  
+>>>>>>> Stashed changes
         <div class="cuerpo">
             <div id="map"></div>
             <!-- Mostrar nombre de la ruta seleccionada en ese momento -->

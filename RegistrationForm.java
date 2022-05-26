@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.event.*;
 import java.sql.*;
 
-public class registrationForm implements ActionListener {
+public class RegistrationForm implements ActionListener {
 
 	//Creating object of JFrame class
 	JFrame frame;
@@ -27,6 +27,7 @@ public class registrationForm implements ActionListener {
     
     JButton registerButton = new JButton("Registrar");
     JButton resetButton = new JButton("Reset");
+<<<<<<< Updated upstream
 	
 	//Creating constructor
 	registrationForm(){
@@ -66,6 +67,48 @@ public class registrationForm implements ActionListener {
         emailTextField.setBounds(180,343,165,23);
         registerButton.setBounds(60,400,100,35);
         resetButton.setBounds(210,400,100,35);
+=======
+
+    // Creating constructor
+    RegistrationForm() {
+        // Calling method from constructor
+        createWindow();
+        setLocationAndSize();
+        addComponentsToFrame();
+        actionEvent();
+    }
+
+    public void createWindow() {
+        // Setting properties of JFrame
+        frame = new JFrame();
+        frame.setIconImage(img.getImage());
+        frame.setTitle("Formulario de registro");
+        frame.setBounds(40, 40, 380, 500);
+        frame.getContentPane().setLayout(null);
+        frame.setVisible(true);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setResizable(false);
+    }
+
+    public void setLocationAndSize() {
+        // Setting Location and Size of Each Component
+        usernameLabel.setBounds(20, 20, 80, 70);
+        nameLabel.setBounds(20, 70, 80, 70);
+        genderLabel.setBounds(20, 120, 100, 70);
+        passwordLabel.setBounds(20, 170, 100, 70);
+        confirmPasswordLabel.setBounds(20, 220, 140, 70);
+        cityLabel.setBounds(20, 270, 100, 70);
+        emailLabel.setBounds(20, 320, 130, 70);
+        usernameTextField.setBounds(180, 43, 165, 23);
+        nameTextField.setBounds(180, 93, 165, 23);
+        genderComboBox.setBounds(180, 143, 165, 23);
+        passwordField.setBounds(180, 193, 165, 23);
+        confirmPasswordField.setBounds(180, 243, 165, 23);
+        cityTextField.setBounds(180, 293, 165, 23);
+        emailTextField.setBounds(180, 343, 165, 23);
+        registerButton.setBounds(60, 400, 100, 35);
+        resetButton.setBounds(210, 400, 100, 35);
+>>>>>>> Stashed changes
     }
 	
 	public void addComponentsToFrame() {
@@ -118,10 +161,16 @@ public class registrationForm implements ActionListener {
                     Pstatement.executeUpdate();
                     JOptionPane.showMessageDialog(null,"Datos registrados correctamente");
                     frame.setVisible(false);
+<<<<<<< Updated upstream
                     new loginForm();
                 }
                 else {
                     JOptionPane.showMessageDialog(null,"La contraseña no coincide");
+=======
+                    new LoginForm();
+                } else {
+                    JOptionPane.showMessageDialog(null, "Las contraseñas no coinciden");
+>>>>>>> Stashed changes
                 }
 
             } catch (SQLException e1) {
