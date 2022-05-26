@@ -53,6 +53,10 @@ if ($result->num_rows > 0) {
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+    <!-- Fuente para th -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
 
     <!-- Favicon -->
     <link rel="icon" href="logo/tortuga_fav.png" type="image/png">
@@ -63,112 +67,124 @@ if ($result->num_rows > 0) {
     <!-- Leaflet Omnivore plugin -->
     <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
 
-        <div class="cabecera">
-            <header>
-                <h1>
-                    TRACCIA
-                </h1>
-                <!-- Menú de navegación del sitio -->
-                <div id="navegador">
-                    <ul>
-                        <li><a href="ver-sendas.php">Página principal</a></li>
-                        <li><a href="estadisticas.html">Estadísticas</a></li>
-                        <li><a href="enlaces.html">Enlaces de interés</a></li>
-                    </ul>
-                    </nav>
-                </div>
-            </header>
-        </div>  
-        <div class="cuerpo">
-            <div id="map"></div>
-            <script>
-                var map = L.map('map').setView([40.41889, -3.69194], 12);
-                L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
-                    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-                    maxZoom: 18,
-                    id: 'mapbox/satellite-streets-v11',
-                    tileSize: 512,
-                    zoomOffset: -1,
-                    accessToken: 'pk.eyJ1IjoiYWxleHF1aWxpczEiLCJhIjoiY2wxbWI1MThrMGo1MDNjczltdXhwMG00YiJ9.VPlwJJoeRnSrbwBiv8MoHg'
-                }).addTo(map);
-
-                var runLayer = omnivore.kml('<?= 'sendas/Senda_' . $id . '.kml' ?>')
-                    .on('ready', function() {
-                        map.fitBounds(runLayer.getBounds());
-                    })
-                    .addTo(map);
-            </script>
-            <div class="container">
-                <table class="table-scroll small-first-col">
-                    <thead>
-                        <tr>
-                            <th>Nombre</th>
-                        </tr>
-                    </thead>
-                    <tbody class="body-half-screen">
-                        <?php
-                        $sql = "SELECT id, nombre FROM senda ORDER BY id ASC ";
-                        $result = $conn->query($sql);
-                        if ($result->num_rows > 0) {
-                            // output data of each row
-                            while ($row = $result->fetch_assoc()) {
-                        ?>
-                                <tr>
-                                    <td><a href="?id=<?= $row["id"] ?> "> <?= $nombre = $row["nombre"] ?> </a></td>
-                                </tr>
-                        <?php
-                            }
-                        } else {
-                            echo "0 results";
-                        }
-                        ?>
-                    </tbody>
-                </table>
-                <table class="table-scroll small-first-col">
-                    <thead>
-                        <tr>
-                            <th><?= $nombre1 ?> </a></th>
-                        </tr>
-                    </thead>
-                    <tbody class="body-half-screen">
-                        <tr>
-                            <td><b>Dificultad</b></td>
-                            <td><?= $dificultad ?> </a></td>
-                        </tr>
-                        <tr>
-                            <td><b>Inicio</b></td>
-                            <td><?= $inicio ?></td>
-                        </tr>
-                        <tr>
-                            <td><b>Final</b></td>
-                            <td><?= $final ?></td>
-                        </tr>
-                        <tr>
-                            <td><b>Longitud</b></td>
-                            <td><?= $longitud ?></td>
-                        </tr>
-                        <tr>
-                            <td><b>Señalización</b></td>
-                            <td><?= $señales ?></td>
-                        </tr>
-                        <tr>
-                            <td><b>Cota máxima</b></td>
-                            <td><?= $cota_max ?></td>
-                        </tr>
-                        <tr>
-                            <td><b>Cota mínima</b></td>
-                            <td><?= $cota_min ?></td>
-                        </tr>
-                    </tbody>
-                </table>
+    <div class="cabecera">
+        <header>
+            <h1>
+                TRACCIA
+            </h1>
+            <!-- Menú de navegación del sitio -->
+            <div id="navegador">
+                <ul>
+                    <li><a href="ver-sendas.php">Página principal</a></li>
+                    <li><a href="estadisticas.php">Estadísticas</a></li>
+                    <li><a href="enlaces.html">Enlaces de interés</a></li>
+                </ul>
+                </nav>
             </div>
+        </header>
+    </div>
+    <div class="cuerpo">
+        <div id="map"></div>
+        <script>
+            var map = L.map('map').setView([40.41889, -3.69194], 12);
+            L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+                attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+                maxZoom: 18,
+                id: 'mapbox/satellite-streets-v11',
+                tileSize: 512,
+                zoomOffset: -1,
+                accessToken: 'pk.eyJ1IjoiYWxleHF1aWxpczEiLCJhIjoiY2wxbWI1MThrMGo1MDNjczltdXhwMG00YiJ9.VPlwJJoeRnSrbwBiv8MoHg'
+            }).addTo(map);
 
+            var runLayer = omnivore.kml('<?= 'sendas/Senda_' . $id . '.kml' ?>')
+                .on('ready', function() {
+                    map.fitBounds(runLayer.getBounds());
+                })
+                .addTo(map);
+        </script>
+        <div class="container">
+            <table class="table-scroll small-first-col">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                    </tr>
+                </thead>
+                <tbody class="body-half-screen">
+                    <?php
+                    $sql = "SELECT id, nombre FROM senda ORDER BY id ASC ";
+                    $result = $conn->query($sql);
+                    if ($result->num_rows > 0) {
+                        // output data of each row
+                        while ($row = $result->fetch_assoc()) {
+                    ?>
+                            <tr>
+                                <td><a href="?id=<?= $row["id"] ?> "> <?= $nombre = $row["nombre"] ?> </a></td>
+                            </tr>
+                    <?php
+                        }
+                    } else {
+                        echo "0 results";
+                    }
+                    ?>
+                </tbody>
+            </table>
+            <table class="table-scroll small-first-col">
+                <thead>
+                    <tr>
+                        <th><?= $nombre1 ?> </a></th>
+                    </tr>
+                </thead>
+                <tbody class="body-half-screen">
+                    <tr>
+                        <td><b>Categoría</b></td>
+                        <td>
+                            <?php
+                            $sql = "select ";
+                            $result = $conn->query($sql);
+                            while ($row = $result->fetch_assoc()) {
+                                echo $row['result'];
+                            }
+                            ?>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>Dificultad</b></td>
+                        <td><?= $dificultad ?> </a></td>
+                    </tr>
+                    <tr>
+                        <td><b>Inicio</b></td>
+                        <td><?= $inicio ?></td>
+                    </tr>
+                    <tr>
+                        <td><b>Final</b></td>
+                        <td><?= $final ?></td>
+                    </tr>
+                    <tr>
+                        <td><b>Longitud</b></td>
+                        <td><?= $longitud ?></td>
+                    </tr>
+                    <tr>
+                        <td><b>Señalización</b></td>
+                        <td><?= $señales ?></td>
+                    </tr>
+                    <tr>
+                        <td><b>Cota máxima</b></td>
+                        <td><?= $cota_max ?></td>
+                    </tr>
+                    <tr>
+                        <td><b>Cota mínima</b></td>
+                        <td><?= $cota_min ?></td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
-        <div class="pie">
-            <footer>
-                © Copyright PSI 2022
-            </footer>
-        </div>
+
+    </div>
+    <div class="pie">
+        <footer>
+            © Copyright PSI 2022
+        </footer>
+    </div>
 </body>
 
 </html>
