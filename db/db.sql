@@ -192,9 +192,6 @@ insert into pertenecen(id_s,id_c)values('52','6');
 insert into pertenecen(id_s,id_c)values('55','1');
 insert into pertenecen(id_s,id_c)values('55','2');
 
-insert into pertenecen(id_s,id_c)values('57','1');
-insert into pertenecen(id_s,id_c)values('57','6');
-
 insert into pertenecen(id_s,id_c)values('58','1');
 
 insert into pertenecen(id_s,id_c)values('59','1');

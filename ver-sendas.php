@@ -136,13 +136,13 @@ if ($result->num_rows > 0) {
                 </thead>
                 <tbody class="body-half-screen">
                     <tr>
-                        <td><b>Categoría</b></td>
+                        <td><b>Categoría(s)</b></td>
                         <td>
                             <?php
-                            $sql = "select ";
+                            $sql = "select nombre_c from senda as s, categoria as c, pertenecen as p where c.id_c1 = p.id_c and s.id = p.id_s and s.id = " . $id;
                             $result = $conn->query($sql);
                             while ($row = $result->fetch_assoc()) {
-                                echo $row['result'];
+                                echo $row['nombre_c'] . "<br>";
                             }
                             ?>
                         </td>
