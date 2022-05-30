@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Earth Point Excel To KML</name>
+	<open>1</open>
+	<Snippet maxLines="1">sagraMadrileña.xlsx</Snippet>
+	<description><![CDATA[Source: sagraMadrileña.xlsx<br/>DateTime: 2014-05-08 08:16:10 UTC<br/><br/>&copy;2014 Earth Point<br/><a target='_blank' href='http://www.earthpoint.us'>www.earthpoint.us</a><br/><br/>For illustration only.&nbsp; User to verify all information.]]></description>
+	<Style>
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+			<textColor>ff000000</textColor>
+			<displayMode>default</displayMode>
+		</BalloonStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ffff</color>
+			<scale>1.3</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="inline">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline0">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ffff</color>
+			<scale>1.3</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline1">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>sagraMadrileña</name>
+		<styleUrl>#inline</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-3.735045686400461,40.15644465455939,0 -3.735338799323185,40.15615352756628,0 -3.735538076344689,40.1555915603729,0 -3.735587048777188,40.15470297101015,0 -3.736123009697563,40.15350719026124,0 -3.736788831239614,40.15256912465984,0 -3.737581705239409,40.15019435514302,0 -3.737555166011544,40.15005736550881,0 -3.736691023461937,40.14973963801884,0 -3.736528479480902,40.14957113292319,0 -3.736570096785494,40.14934100401015,0 -3.736784811979769,40.14910152376574,0 -3.736576143105679,40.14915564182212,0 -3.735625947053128,40.14989411880552,0 -3.735129454373909,40.1497380551471,0 -3.735293690554254,40.14924303502275,0 -3.73540348224874,40.14915313125735,0 -3.736037611884462,40.14875411789635,0 -3.73612169629045,40.14847253405168,0 -3.736046732021747,40.14838881292189,0 -3.735720852158283,40.14822754221918,0 -3.735495260393015,40.14814292202242,0 -3.735395139191116,40.14773983953129,0 -3.735201946458764,40.14755450158864,0 -3.734868666932377,40.14722153669561,0 -3.734463017148164,40.14705358507926,0 -3.734267513789962,40.14707719171426,0 -3.733936069588117,40.14736675953977,0 -3.733484237584496,40.14761274002517,0 -3.732925510313586,40.14804398395142,0 -3.732645632869416,40.14813075118678,0 -3.732350647461885,40.14824737370207,0 -3.731773612070126,40.14800767040063,0 -3.731188906141622,40.14801584417519,0 -3.730997542472371,40.14835179931485,0 -3.730816218830929,40.14860242916486,0 -3.730542041873481,40.14891838138873,0 -3.730348502339692,40.14916494794142,0 -3.730350653226471,40.14932957092843,0 -3.73049076411701,40.14965683816744,0 -3.730507917658468,40.15014573311493,0 -3.730486485254766,40.15025476503404,0 -3.730188050140195,40.15034292225869,0 -3.729820896663634,40.15041809177114,0 -3.729432359148193,40.15048125153588,0 -3.728869101944664,40.15034331335713,0 -3.728388833081166,40.15009157781724,0 -3.727750829240317,40.14968226818154,0 -3.727119205126466,40.14933357833315,0 -3.726883950216533,40.14908776434778,0 -3.726403540530551,40.14899370410107,0 -3.725637934631483,40.14881445519926,0 -3.725028919962897,40.1485872973303,0 -3.724731025206804,40.14849629103398,0 -3.722885190961094,40.14810199374546,0 -3.722261450173334,40.14777376415042,0 -3.72186477313199,40.14757060576691,0 -3.721127696997723,40.14705770392983,0 -3.720751570499885,40.14692343170391,0 -3.719407593750565,40.14601234267914,0 -3.718525952871522,40.14549286767348,0 -3.718211385567567,40.14531783676733,0 -3.717610528996869,40.1447695058166,0 -3.716766193260831,40.14427350393319,0 -3.716415550814332,40.14380464149374,0 -3.716248253872133,40.14413050311142,0 -3.71595199504836,40.14431531243972,0 -3.715542735816916,40.1446568804441,0 -3.714995166525377,40.14505195454837,0 -3.714882655395204,40.14553046266106,0 -3.714478249121486,40.14576853783537,0 -3.713808632739952,40.14629436493421,0 -3.713454711035868,40.14665166367587,0 -3.713373231877808,40.14699617009761,0 -3.713180812572309,40.14735626636238,0 -3.713022288847192,40.14782024883527,0 -3.712721195910778,40.14809250922451,0 -3.712264627122343,40.14860417084017,0 -3.711891600168697,40.14940600431002,0 -3.711426563124374,40.14990624285098,0 -3.710815295280732,40.15088370542725,0 -3.710469377617258,40.1512081795529,0 -3.709813377834543,40.15167680367832,0 -3.708451872083573,40.15263649365173,0 -3.708068875507578,40.15286243825793,0 -3.707993736498914,40.15312391114281,0 -3.708020506154456,40.15353490774195,0 -3.707594553767214,40.15423028718174,0 -3.707541780714017,40.15571891072268,0 -3.707483290306949,40.15638541940493,0 -3.707410694371736,40.15679960367782,0 -3.707225069602171,40.1573557334404,0 -3.70706539232465,40.15793360765526,0 -3.706967680541585,40.15836761630519,0 -3.706863107672851,40.15874395162314,0 -3.706724863961173,40.15960454679436,0 -3.706669387567054,40.16012231158799,0 -3.706517929333999,40.16085985880395,0 -3.716030663575742,40.16150446304373,0 -3.716115645286771,40.16165079003773,0 -3.71581557669088,40.16182429928531,0 -3.715716952579372,40.16216636067151,0 -3.715257856904156,40.16248063913295,0 -3.714730080449027,40.16296193813955,0 -3.713785420307796,40.16332197128654,0 -3.713265933870819,40.1636142917706,0 -3.71311665341708,40.16374664949541,0 -3.713436902974703,40.16383793256191,0 -3.713890421421979,40.16410168176928,0 -3.714318552282023,40.16421151068877,0 -3.714864615793262,40.16434522206117,0 -3.715454136716919,40.16448870391007,0 -3.716322367819442,40.16553078792921,0 -3.717181794127033,40.16599077315994,0 -3.71756402336958,40.16634118998079,0 -3.718224601173446,40.16658201859571,0 -3.718434311436512,40.16699373013065,0 -3.718629832541638,40.1671199797384,0 -3.718979110710895,40.16722097576448,0 -3.7193840825102,40.16736773208067,0 -3.719881655017586,40.16739312456142,0 -3.720511436310292,40.16746227466383,0 -3.721263617689674,40.16743066825641,0 -3.722132287530673,40.16764864272075,0 -3.723998021983955,40.16765659836531,0 -3.724702982713877,40.16749938069766,0 -3.725144863836239,40.16758011463694,0 -3.725538377208397,40.16772122674403,0 -3.726104400882998,40.16795605213589,0 -3.726653112325731,40.16805847196136,0 -3.727579060324136,40.16844345719625,0 -3.728916314091216,40.16895303842842,0 -3.729958030866837,40.16951297148514,0 -3.731668505865047,40.169954298103,0 -3.73230392577008,40.16983381526222,0 -3.732847849323677,40.16959474830319,0 -3.733194487607694,40.16948526706463,0 -3.733772691109881,40.1694807690042,0 -3.732450720211192,40.16866278792293,0 -3.730119098037528,40.16681634762915,0 -3.729964357488043,40.16679434561783,0 -3.729970154094269,40.16666628278746,0 -3.73046929922133,40.16602602036851,0 -3.730785038806187,40.16555477330972,0 -3.731649872354802,40.16446638136154,0 -3.732086830004595,40.1639020751153,0 -3.732363040020394,40.16406673324952,0 -3.733517348500604,40.16396742906352,0 -3.735278626041787,40.16430521906095,0 -3.736958781696131,40.16455639858341,0 -3.738066491357948,40.16507280037926,0 -3.739422068148186,40.16558100711293,0 -3.741029688481711,40.16615766856366,0 -3.742465913563374,40.1662050390199,0 -3.745918784816162,40.16707206747662,0 -3.745936113088749,40.16700097750508,0 -3.745673552841065,40.16646418909432,0 -3.745367838132737,40.16522354735934,0 -3.744766861499239,40.16465993929995,0 -3.743450990208199,40.16404669591045,0 -3.74243735860007,40.16339241946654,0 -3.741450834798201,40.16274563346836,0 -3.740249691705563,40.16175098659674,0 -3.73972003850998,40.16116914875352,0 -3.738558170182133,40.16027839896665,0 -3.738183455102437,40.15982569973198,0 -3.737861010453616,40.15909607124404,0 -3.737603322022273,40.15851364658654,0 -3.73725319874692,40.15814878209497,0 -3.736830122450464,40.1575270508092,0 -3.736428594458838,40.15712102262856,0 -3.735776310522664,40.156789855355,0 -3.735062918902386,40.15668455571298,0 -3.734918292585444,40.15654190717461,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>  1</name>
+		<LookAt>
+			<gx:TimeStamp><when>2012-03-28</when>
+</gx:TimeStamp>
+			<gx:ViewerOptions>
+				<gx:option name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option enabled="0" name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>-3.726462793520446</longitude>
+			<latitude>40.1578147835873</latitude>
+			<altitude>0</altitude>
+			<heading>-4.012601766003339</heading>
+			<tilt>0.02711415575027861</tilt>
+			<range>4339.017329645044</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-3.735055555555555,40.15658333333333,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>  2</name>
+		<LookAt>
+			<gx:TimeStamp><when>2012-03-28</when>
+</gx:TimeStamp>
+			<gx:ViewerOptions>
+				<gx:option name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option enabled="0" name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>-3.726462793520446</longitude>
+			<latitude>40.1578147835873</latitude>
+			<altitude>0</altitude>
+			<heading>-4.012601766003339</heading>
+			<tilt>0.02711415575027861</tilt>
+			<range>4339.017329645044</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-3.726888888888889,40.14911111111111,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>  3</name>
+		<LookAt>
+			<gx:TimeStamp><when>2012-03-28</when>
+</gx:TimeStamp>
+			<gx:ViewerOptions>
+				<gx:option name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option enabled="0" name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>-3.726462793520446</longitude>
+			<latitude>40.1578147835873</latitude>
+			<altitude>0</altitude>
+			<heading>-4.012601766003339</heading>
+			<tilt>0.02711415575027861</tilt>
+			<range>4339.017329645044</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-3.716444444444444,40.14383333333333,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>  4</name>
+		<LookAt>
+			<gx:TimeStamp><when>2012-03-28</when>
+</gx:TimeStamp>
+			<gx:ViewerOptions>
+				<gx:option name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option enabled="0" name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>-3.726462793520446</longitude>
+			<latitude>40.1578147835873</latitude>
+			<altitude>0</altitude>
+			<heading>-4.012601766003339</heading>
+			<tilt>0.02711415575027861</tilt>
+			<range>4339.017329645044</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-3.7075,40.15580555555555,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>  5</name>
+		<LookAt>
+			<gx:TimeStamp><when>2012-03-28</when>
+</gx:TimeStamp>
+			<gx:ViewerOptions>
+				<gx:option name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option enabled="0" name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>-3.726462793520446</longitude>
+			<latitude>40.1578147835873</latitude>
+			<altitude>0</altitude>
+			<heading>-4.012601766003339</heading>
+			<tilt>0.02711415575027861</tilt>
+			<range>4339.017329645044</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-3.716122222222222,40.16155555555555,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>  6</name>
+		<LookAt>
+			<gx:TimeStamp><when>2012-03-28</when>
+</gx:TimeStamp>
+			<gx:ViewerOptions>
+				<gx:option name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option enabled="0" name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>-3.726462793520446</longitude>
+			<latitude>40.1578147835873</latitude>
+			<altitude>0</altitude>
+			<heading>-4.012601766003339</heading>
+			<tilt>0.02711415575027861</tilt>
+			<range>4339.017329645044</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-3.732306341821159,40.16980555555556,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>  7</name>
+		<LookAt>
+			<gx:TimeStamp><when>2012-03-28</when>
+</gx:TimeStamp>
+			<gx:ViewerOptions>
+				<gx:option name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option enabled="0" name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>-3.726462793520446</longitude>
+			<latitude>40.1578147835873</latitude>
+			<altitude>0</altitude>
+			<heading>-4.012601766003339</heading>
+			<tilt>0.02711415575027861</tilt>
+			<range>4339.017329645044</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-3.745888888888889,40.16705555555556,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
