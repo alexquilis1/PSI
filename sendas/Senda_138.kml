@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>MapSource</name>
+	<open>1</open>
+	<LookAt>
+		<longitude>-3.297886038</longitude>
+		<latitude>40.35252948</latitude>
+		<altitude>0</altitude>
+		<heading>0</heading>
+		<tilt>0</tilt>
+		<range>8087.365101</range>
+		<altitudeMode>relativeToGround</altitudeMode>
+	</LookAt>
+	<StyleMap id="point2Style">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#point2_n</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#point2_h</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="point1_h">
+		<IconStyle>
+			<scale>1.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/><br/>$[description]<br/><br/><!--$[geDirections]-->]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="point0_n">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="point0Style">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#point0_n</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#point0_h</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="point11_h">
+		<IconStyle>
+			<scale>1.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/><br/>$[description]<br/><br/><!--$[geDirections]-->]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="point7_h">
+		<IconStyle>
+			<scale>1.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/><br/>$[description]<br/><br/><!--$[geDirections]-->]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="point0_h">
+		<IconStyle>
+			<scale>1.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/><br/>$[description]<br/><br/><!--$[geDirections]-->]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="path0Style">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#path0Style1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#path0Style0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="point10_n">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="point2_n">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="point4Style">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#point4_n</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#point4_h</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="point6_n">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="point7Style">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#point7_n</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#point7_h</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="point3_h">
+		<IconStyle>
+			<scale>1.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/><br/>$[description]<br/><br/><!--$[geDirections]-->]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="point4_n">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="point9Style">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#point9_n</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#point9_h</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="point6Style">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#point6_n</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#point6_h</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="path0Style0">
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>6</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="point5Style">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#point5_n</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#point5_h</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="point5_n">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="point5_h">
+		<IconStyle>
+			<scale>1.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/><br/>$[description]<br/><br/><!--$[geDirections]-->]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="point8Style">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#point8_n</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#point8_h</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="point11_n">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="point1Style">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#point1_n</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#point1_h</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="point10Style">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#point10_n</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#point10_h</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="point3Style">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#point3_n</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#point3_h</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="point4_h">
+		<IconStyle>
+			<scale>1.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/><br/>$[description]<br/><br/><!--$[geDirections]-->]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="point1_n">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="point8_h">
+		<IconStyle>
+			<scale>1.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/><br/>$[description]<br/><br/><!--$[geDirections]-->]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="point10_h">
+		<IconStyle>
+			<scale>1.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/><br/>$[description]<br/><br/><!--$[geDirections]-->]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="point7_n">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="path0Style1">
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>6</width>
+		</LineStyle>
+	</Style>
+	<Style id="point6_h">
+		<IconStyle>
+			<scale>1.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/><br/>$[description]<br/><br/><!--$[geDirections]-->]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="point11Style">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#point11_n</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#point11_h</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="point2_h">
+		<IconStyle>
+			<scale>1.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/><br/>$[description]<br/><br/><!--$[geDirections]-->]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="point8_n">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="point9_h">
+		<IconStyle>
+			<scale>1.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/><br/>$[description]<br/><br/><!--$[geDirections]-->]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="point3_n">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="point9_n">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Waypoints</name>
+		<Placemark>
+			<name>001</name>
+			<description>02-JUN-10 9:23:58</description>
+			<styleUrl>#point0Style</styleUrl>
+			<Point>
+				<coordinates>-3.3215230051,40.3662069887,861.22</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>002</name>
+			<description>02-JUN-10 9:28:50</description>
+			<styleUrl>#point1Style</styleUrl>
+			<Point>
+				<coordinates>-3.321215976,40.3658569604,857.8599999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>003</name>
+			<description>02-JUN-10 9:31:13</description>
+			<styleUrl>#point2Style</styleUrl>
+			<Point>
+				<coordinates>-3.3209179994,40.365701979,854.2499999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>004</name>
+			<description>02-JUN-10 9:32:52</description>
+			<styleUrl>#point3Style</styleUrl>
+			<Point>
+				<coordinates>-3.3210810274,40.3654080257,852.09</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>005</name>
+			<description>02-JUN-10 9:44:34</description>
+			<styleUrl>#point4Style</styleUrl>
+			<Point>
+				<coordinates>-3.3185920212,40.3651180118,807.63</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>006</name>
+			<description>02-JUN-10 9:49:37</description>
+			<styleUrl>#point5Style</styleUrl>
+			<Point>
+				<coordinates>-3.31409798,40.3620680049,807.8699999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>007</name>
+			<description>02-JUN-10 9:55:29</description>
+			<styleUrl>#point6Style</styleUrl>
+			<Point>
+				<coordinates>-3.2967079617,40.3424639907,816.0399999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>008</name>
+			<description>02-JUN-10 9:59:31</description>
+			<styleUrl>#point7Style</styleUrl>
+			<Point>
+				<coordinates>-3.2901839912,40.335853016,806.4300000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>009</name>
+			<description>02-JUN-10 10:03:14</description>
+			<styleUrl>#point8Style</styleUrl>
+			<Point>
+				<coordinates>-3.285896983,40.3413959686,808.35</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>010</name>
+			<description>02-JUN-10 10:11:06</description>
+			<styleUrl>#point9Style</styleUrl>
+			<Point>
+				<coordinates>-3.2805289607,40.3558470402,812.1900000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>011</name>
+			<description>02-JUN-10 10:14:53</description>
+			<styleUrl>#point10Style</styleUrl>
+			<Point>
+				<coordinates>-3.2742950041,40.366091989,828.06</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>012</name>
+			<description>02-JUN-10 10:21:11</description>
+			<styleUrl>#point11Style</styleUrl>
+			<Point>
+				<coordinates>-3.3182020113,40.365362009,808.5899999999999</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Caminos</name>
+		<open>1</open>
+		<Folder>
+			<name>Rutas</name>
+			<open>1</open>
+			<Placemark>
+				<name>Track actual: 02 JUN 2010 09:20</name>
+				<styleUrl>#path0Style</styleUrl>
+				<MultiGeometry>
+					<LineString>
+						<coordinates>
+							-3.3214950096,40.3661980201,859.0800000000002 -3.3214680199,40.3659070004,858.11 -3.3213349991,40.3658859618,857.6299999999999 -3.3212080132,40.3658589721,857.6299999999999 -3.3210660238,40.3658159729,856.1900000000001 -3.3210340049,40.3657859657,854.7499999999999 -3.3209650218,40.3657200001,853.79 -3.3210159838,40.3655950259,800.92 -3.3210510202,40.3654109593,799.47 -3.3209989686,40.3653670382,801.4 -3.320467975,40.3652839735,803.8 -3.319404982,40.3652090393,806.68 -3.3190410398,40.3651770204,808.13 -3.3185529616,40.3650519624,807.16 -3.3184269816,40.3649429977,806.68 -3.3183360379,40.3647069633,806.2000000000001 -3.3183399774,40.3646779619,805.72 -3.3183210343,40.36466497,805.72 -3.3182139974,40.3646280058,806.68 -3.3176410105,40.36427496,807.16 -3.3166709729,40.3636780009,809.0899999999999 -3.3150609769,40.3626720048,810.5299999999999 -3.3143389598,40.3621959966,809.0899999999999 -3.3140679728,40.3620410152,808.13 -3.3137610275,40.3618769813,810.0499999999998 -3.313695984,40.3618230019,810.5299999999999 -3.3133919723,40.3612930141,812.93 -3.312842035700001,40.3604860045,816.3 -3.312712032299999,40.3602679912,817.2599999999999 -3.3118959703,40.358848013,816.3 -3.3114180341,40.35846496,816.78 -3.3106660098,40.3578160331,820.1399999999999 -3.3098200243,40.3570800181,823.51 -3.3086110186,40.3559910413,826.87 -3.3074229676,40.3550589737,827.3499999999999 -3.3064430393,40.3543129843,824.4699999999999 -3.3062279597,40.3541330248,823.99 -3.3059390355,40.353717031,823.03 -3.3054249734,40.3522809595,819.66 -3.3053259831,40.3520180192,818.22 -3.305017026099999,40.3515349701,818.7000000000001 -3.3040400315,40.3504279722,815.8200000000001 -3.3039780054,40.350302998,814.37 -3.3038930129,40.3500370402,812.93 -3.3036500216,40.3489589598,809.0899999999999 -3.3035529591,40.3486080095,806.2000000000001 -3.3035090379,40.3484569676,805.2399999999999 -3.3034630213,40.3483129665,805.2399999999999 -3.3034070302,40.3481070232,804.28 -3.3033999894,40.348101994,804.76 -3.303353972700001,40.3479210287,803.8 -3.303292030500001,40.3476300091,803.3200000000001 -3.3032379672,40.3474740218,803.3200000000001 -3.3029860072,40.3471209761,804.76 -3.3022509981,40.346121015,805.72 -3.3016719762,40.3454849962,806.68 -3.3012160007,40.3452499676,811.49 -3.3010939602,40.3451959882,811.49 -3.3004379924,40.3448990174,814.8499999999999 -3.2997510117,40.3445879649,818.22 -3.2995139714,40.3444779944,819.18 -3.2984290179,40.3436589986,820.6200000000001 -3.2976370119,40.3429349698,818.7000000000001 -3.2971180044,40.3425479773,817.74 -3.2969539706,40.3425069898,817.74 -3.296812987,40.3424960095,817.74 -3.2967150025,40.3424720373,816.3 -3.296630009999999,40.3423560318,816.78 -3.2966460194,40.3421640024,816.78 -3.296831008,40.3418009821,814.8499999999999 -3.2966259867,40.3413730022,814.37 -3.2951599918,40.3403079975,811.9699999999999 -3.2936530095,40.3392389696,811.9699999999999 -3.2918679994,40.3378599789,811.49 -3.2907589898,40.3367000073,810.5299999999999 -3.290235958999999,40.3359739669,807.16 -3.2901630364,40.3358479869,806.68 -3.2902239729,40.3358680196,806.2000000000001 -3.2900689915,40.3357159719,806.68 -3.2898980007,40.3358120285,808.13 -3.2893950026,40.3365710098,806.2000000000001 -3.289346974299999,40.3366349638,806.2000000000001 -3.2889230177,40.3373389598,810.0499999999998 -3.2887390349,40.3376169875,807.16 -3.2886879891,40.3376630042,807.16 -3.2886409666,40.3377289698,805.2399999999999 -3.2882369589,40.3382090013,807.64 -3.2879939675,40.3385280166,810.0499999999998 -3.287782995,40.3387969919,811.9699999999999 -3.286899961500001,40.3399769962,813.4099999999999 -3.2862129807,40.340952985,811.49 -3.2859399822,40.34129899,810.0499999999998 -3.2858989947,40.3413819708,809.0899999999999 -3.285733033000001,40.3415930271,808.61 -3.2856509741,40.3416839708,807.64 -3.2854969986,40.3419510182,810.5299999999999 -3.2848830242,40.3429619595,811.49 -3.2847530209,40.3431870136,810.5299999999999 -3.2845840417,40.3434180189,809.5700000000001 -3.2840119768,40.3443700355,811.01 -3.283841991800001,40.3452330362,811.01 -3.283634036800001,40.3464599792,809.0899999999999 -3.283633031,40.3465139586,808.13 -3.2835860085,40.3466039803,808.61 -3.283528005700001,40.3469580319,809.5700000000001 -3.283463968,40.3472420108,808.61 -3.2833710127,40.3478379641,810.5299999999999 -3.2832160313,40.3486749809,811.49 -3.2830469683,40.3495330364,810.5299999999999 -3.283039005500001,40.3495969903,809.0899999999999 -3.2830450404,40.3496000078,809.5700000000001 -3.2830329705,40.3497580066,810.5299999999999 -3.282985026,40.3500579949,813.89 -3.2829649933,40.3501579911,813.89 -3.2827039808,40.3517639637,814.8499999999999 -3.2825919986,40.3523660358,813.4099999999999 -3.282243982,40.3533349838,815.34 -3.281564964,40.3542999923,814.37 -3.2811880298,40.3548299801,812.4500000000002 -3.2808690146,40.355308,814.37 -3.2805360015,40.3558320366,812.93 -3.2805260271,40.3558499739,811.9699999999999 -3.2803830318,40.3560730163,813.4099999999999 -3.27996796,40.3566699754,815.8200000000001 -3.2790339645,40.3579799831,816.78 -3.2788489759,40.3582699969,818.22 -3.2783749793,40.3589620069,820.1399999999999 -3.2775579952,40.3600819968,822.5499999999998 -3.2764660008,40.3616729658,824.4699999999999 -3.2761039864,40.3623150196,827.3499999999999 -3.2758589834,40.3627330251,829.27 -3.275615992,40.3631500248,830.72 -3.2751000021,40.3640120197,833.6 -3.274339009100001,40.3651770204,832.6399999999999 -3.2743010391,40.3652630188,832.16 -3.274276983,40.3658410348,829.27 -3.2742820121,40.3658690304,828.7900000000001 -3.2742929924,40.3660869598,828.3099999999998 -3.2742929924,40.3662469704,828.3099999999998 -3.2742980216,40.3662459645,829.27 -3.2745369896,40.3663489781,829.7599999999999 -3.2757380325,40.3665160295,833.6 -3.2763540186,40.3665980045,836 -3.2775050215,40.3667489626,837.9299999999998 -3.2806749735,40.3673539683,840.33 -3.2845970336,40.3683730401,838.89 -3.2854170352,40.3685860243,837.4500000000001 -3.2881529722,40.3689740226,836.96 -3.2916169614,40.3692620248,837.4500000000001 -3.2933520153,40.369279962,838.89 -3.2942010183,40.369292032,841.29 -3.2947500329,40.3693070356,839.8500000000001 -3.2964219712,40.3693429939,839.3699999999999 -3.2977499999,40.3693310078,837.4500000000001 -3.3004130144,40.3693220392,835.5199999999999 -3.3015920129,40.3691959754,831.68 -3.3021830209,40.369109977,830.72 -3.3044090029,40.3684720304,830.72 -3.3052890189,40.3682980221,828.7900000000001 -3.3078180067,40.3679360077,825.4299999999998 -3.3086290397,40.3677960299,822.06 -3.3093740232,40.367638031,818.7000000000001 -3.3100009896,40.36748196,816.3 -3.311924971599999,40.367003018,818.22 -3.3139350358,40.3667919617,814.8499999999999 -3.3153479733,40.3666079789,811.9699999999999 -3.3168289717,40.3658149671,811.9699999999999 -3.317137006699999,40.3656729776,810.5299999999999 -3.3171840291,40.3656510171,810.5299999999999 -3.317399024999999,40.3655790165,811.49 -3.3176570199,40.365538029,811.01 -3.3181809727,40.365362009,808.61 -3.3181929588,40.3653719835,808.61 -3.3186351042,40.3652155772,0 -3.3190430515,40.3651777748,0 
+						</coordinates>
+					</LineString>
+				</MultiGeometry>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>
