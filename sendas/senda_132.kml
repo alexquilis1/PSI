@@ -314,7 +314,6 @@
 			<coordinates>-4.348694444444444,40.31630555555555,0</coordinates>
 		</Point>
 	</Placemark>
-	-->
 	<Placemark>
 		<name> 14</name>
 		<LookAt>
@@ -332,5 +331,6 @@
 			<coordinates>-4.365805555555555,40.31366666666666,0</coordinates>
 		</Point>
 	</Placemark>
+	-->
 </Document>
 </kml>
