@@ -7,7 +7,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class VerPerfil implements ActionListener {
+public class Perfil implements ActionListener {
 
 	JFrame frame;
 	ImageIcon img = new ImageIcon("logo/tortuga_fav.png");
@@ -27,7 +27,7 @@ public class VerPerfil implements ActionListener {
 
 	JButton back = new JButton("Volver");
 
-	VerPerfil(String email) {
+	Perfil(String email) {
 		this.email = email;
 		connectionDB();
 		createWindow();
@@ -105,7 +105,7 @@ public class VerPerfil implements ActionListener {
 		// TODO Auto-generated method stub
 		if (e.getSource() == back) {
 			frame.setVisible(false);
-			new app(email);
+			new Aplicación(email);
 		}
 
 	}

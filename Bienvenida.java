@@ -1,7 +1,7 @@
 import javax.swing.*;
 import java.awt.event.*;
 
-public class welcome implements ActionListener {
+public class Bienvenida implements ActionListener {
 
 	// Creating object of JFrame class
 	JFrame frame;
@@ -13,7 +13,7 @@ public class welcome implements ActionListener {
 	JLabel logolabel = new JLabel(logo);
 
 	// Creating constructor
-	welcome() {
+	Bienvenida() {
 		// Calling method from constructor
 		createWindow();
 		setLocationAndSize();
@@ -58,12 +58,12 @@ public class welcome implements ActionListener {
 	public void actionPerformed(ActionEvent e) {
 		// Coding part of Login Button
 		if (e.getSource() == loginButton) {
-			new LoginForm();
+			new FormularioInicio();
 			frame.setVisible(false);
 		}
 		// Coding part of Register Button
 		else if (e.getSource() == registerButton) {
-			new RegistrationForm();
+			new FormularioRegistro();
 			frame.setVisible(false);
 		}
 	}

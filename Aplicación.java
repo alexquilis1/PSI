@@ -1,7 +1,7 @@
 import javax.swing.*;
 import java.awt.event.*;
 
-public class app implements ActionListener {
+public class Aplicación implements ActionListener {
 
 	String email;
 
@@ -11,7 +11,7 @@ public class app implements ActionListener {
 	JButton editProfile = new JButton("Editar datos");
 	JButton consultPaths = new JButton("Consultar sendas");
 
-	app(String email) {
+	Aplicación(String email) {
 		this.email = email;
 		createWindow();
 		setLocationAndSize();
@@ -52,11 +52,11 @@ public class app implements ActionListener {
 	public void actionPerformed(ActionEvent e) {
 		if (e.getSource() == viewProfile) {
 			frame.setVisible(false);
-			new VerPerfil(email);
+			new Perfil(email);
 		}
 		if (e.getSource() == editProfile) {
 			frame.setVisible(false);
-			new editarDatos(email);
+			new FormularioDatos(email);
 		}
 		if (e.getSource() == consultPaths) {
 			frame.setVisible(false);
