@@ -1,7 +1,7 @@
 import java.awt.EventQueue;
 import javax.swing.UIManager;
 
-public class launcher {
+public class Launcher {
 
 	public static void main(String[] args) {
 
@@ -15,7 +15,7 @@ public class launcher {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					welcome window = new welcome();
+					Bienvenida window = new Bienvenida();
 					window.frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();

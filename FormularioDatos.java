@@ -3,7 +3,7 @@ import java.awt.event.ActionListener;
 import java.sql.*;
 import javax.swing.*;
 
-public class editarDatos implements ActionListener {
+public class FormularioDatos implements ActionListener {
 
     JFrame frame;
     ImageIcon img = new ImageIcon("logo/tortuga_fav.png");
@@ -36,7 +36,7 @@ public class editarDatos implements ActionListener {
     JButton saveChangesButton = new JButton("Guardar");
     JButton backButton = new JButton("Volver atrás");
 
-    editarDatos(String email) {
+    FormularioDatos(String email) {
         this.email = email;
         createWindow();
         setLocationAndSize();
@@ -119,7 +119,7 @@ public class editarDatos implements ActionListener {
                     ps.executeUpdate();
                     JOptionPane.showMessageDialog(null, "Datos actualizados");
                     frame.setVisible(false);
-                    new app(email);
+                    new Aplicación(email);
                 } else {
                     JOptionPane.showMessageDialog(null, "Las contraseñas no coinciden");
                 }
@@ -129,7 +129,7 @@ public class editarDatos implements ActionListener {
         }
         if (e.getSource() == backButton) {
             frame.setVisible(false);
-            new app(email);
+            new Aplicación(email);
         }
 
     }

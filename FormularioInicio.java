@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.event.*;
 import java.sql.*;
 
-public class LoginForm implements ActionListener {
+public class FormularioInicio implements ActionListener {
 
 	// Creating object of JFrame class
 	JFrame frame;
@@ -21,7 +21,7 @@ public class LoginForm implements ActionListener {
 	JCheckBox showPassword = new JCheckBox("Mostrar contraseña");
 
 	// Creating constructor
-	LoginForm() {
+	FormularioInicio() {
 		// Calling method from constructor
 		createWindow();
 		setLocationAndSize();
@@ -93,7 +93,7 @@ public class LoginForm implements ActionListener {
 				}
 				if (email.equals(emailTextField.getText()) && password.equals(passwordTextField.getText())) {
 					frame.setVisible(false);
-					new app(emailTextField.getText());
+					new Aplicación(emailTextField.getText());
 				} else {
 					JOptionPane.showMessageDialog(null, "Los datos introducidos son incorrectos");
 				}
@@ -109,7 +109,7 @@ public class LoginForm implements ActionListener {
 		// Coding part of goBack button
 		if (e.getSource() == backButton) {
 			frame.setVisible(false);
-			new welcome();
+			new Bienvenida();
 		}
 		// Coding Part of showPassword JCheckBox
 		if (e.getSource() == showPassword) {

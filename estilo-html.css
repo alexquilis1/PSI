@@ -48,6 +48,25 @@ h1 {
   padding-bottom: 1.5%;
 }
 
+.contenido h1 {
+  font-size: 3em;
+}
+
+.contenido h1,
+h2 {
+  font-family: 'Francois One', sans-serif;
+}
+
+.contenido p {
+  font-family: 'Roboto', sans-serif;
+}
+
+/*
+.contenido a {
+  color: blue;
+}
+*/
+
 #map {
   position: relative;
   margin: 1em;
@@ -67,7 +86,7 @@ footer {
   position: auto;
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
 }
@@ -105,14 +124,14 @@ td {
   border-bottom: 1px solid black;
 }
 
-th{
+th {
   background-color: #6b442a;
-  color: whitesmoke;
+  color: #f1f1f1;
   font-family: 'Secular One', sans-serif;
 }
 
-td{
-  background-color: whitesmoke;
+td {
+  background-color: #f1f1f1;
 }
 
 .table-scroll thead {

@@ -111,7 +111,7 @@ if ($result->num_rows > 0) {
                 </thead>
                 <tbody class="body-half-screen">
                     <?php
-                    $sql = "SELECT id, nombre FROM senda ORDER BY id ASC ";
+                    $sql = "SELECT id, nombre FROM senda ORDER BY nombre ASC ";
                     $result = $conn->query($sql);
                     if ($result->num_rows > 0) {
                         // output data of each row
@@ -142,7 +142,7 @@ if ($result->num_rows > 0) {
                             $sql = "select nombre_c from senda as s, categoria as c, pertenecen as p where c.id_c1 = p.id_c and s.id = p.id_s and s.id = " . $id;
                             $result = $conn->query($sql);
                             while ($row = $result->fetch_assoc()) {
-                                echo $row['nombre_c'] . "<br>";
+                                echo " | " . $row['nombre_c'] . " | " . "<br>";
                             }
                             ?>
                         </td>
